@@ -1,8 +1,6 @@
 # 你好，我是 Nanami
 
-**Agent 工具链与判断工程 · AI 产品经理（杭州）**
-
-造 agent 运行时，写判断判据，算清每一步成本。
+**Agent 工具链与判断工程 · AI PM（杭州）**
 
 ## 正在做
 
@@ -12,14 +10,13 @@
 
 ## 在意的事
 
-判据即接口 · 零幻觉是架构声明而非正确性声明 · agent 成本可量化（[acq-framework](/nanami-0713/acq-framework)）
+个人coding agent开发中 · Agent2Agent 编排研究 · LLM 量化成本体系（[acq-framework](/nanami-0713/acq-framework)）
 
 ## 工具之外
 
 - [notch-island](/nanami-0713/notch-island) —— 把 MacBook 刘海变成 iPhone 式灵动岛
-- [pixel-valley](/nanami-0713/pixel-valley) —— 会呼吸的像素小镇，20 位有作息表与自由意志的 NPC
 - [lifttime](/nanami-0713/lifttime) —— 零依赖的健身与时间分配 PWA
 
 ## 联系
 
-2093194326@qq.com —— 找工作、聊 agent 工程，都欢迎。
+2093194326@qq.com/gymlinzhu@gmail.com —— Feel free to chat with me.
