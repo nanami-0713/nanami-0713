@@ -12,6 +12,20 @@
 
 个人coding agent开发中 · Agent2Agent 编排研究 · LLM 量化成本体系（[acq-framework](/nanami-0713/acq-framework)）
 
+## 正在运行
+
+<!-- AUTO:stats 开始 -->
+（数据生成中——机器人每日自动维护本区）
+<!-- AUTO:stats 结束 -->
+
+<!-- AUTO:releases 开始 -->
+<!-- AUTO:releases 结束 -->
+
+<!-- AUTO:activity 开始 -->
+<!-- AUTO:activity 结束 -->
+
+<sub>🤖 本区由 GitHub Actions 每日自动更新 · <a href="https://github.com/nanami-0713/nanmi-0713/blob/main/.github/workflows/update-readme.yml">工作流源码</a></sub>
+
 ## 工具之外
 
 - [notch-island](/nanami-0713/notch-island) —— 把 MacBook 刘海变成 iPhone 式灵动岛

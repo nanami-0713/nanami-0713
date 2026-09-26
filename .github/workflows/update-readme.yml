@@ -1,0 +1,40 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # UTC 18:00 = 北京 02:00
+  workflow_dispatch:        # 手动触发入口
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 生成活文档
+        run: node .github/scripts/update-readme.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 有变化才提交
+        run: |
+          if git diff --quiet README.md; then
+            echo "无变化，跳过提交"
+          else
+            git config user.name  "nanami-readme-bot"
+            git config user.email "nanami-0713@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: 活文档自动更新 [skip ci]"
+            git push
+          fi
