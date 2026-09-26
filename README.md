@@ -1,6 +1,6 @@
-# Hello，I'm Nanami
+# Hello, I'm Nanami
 
-**Agent tooling & judgment engineering · AI PM（HZ）**
+**Agent tooling & judgment engineering · AI PM (HZ)**
 
 ## Building
 
@@ -21,10 +21,10 @@
 Building a personal coding agent · Studying agent-to-agent (A2A) orchestration · Quantifying
 the true cost of LLM systems ([acq-framework](/nanami-0713/acq-framework))
 
-## Going On
+## Live
 
 <!-- AUTO:stats 开始 -->
-（Deep Diving...）
+(Deep Diving...)
 <!-- AUTO:stats 结束 -->
 
 <!-- AUTO:releases 开始 -->

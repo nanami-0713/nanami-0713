@@ -50,9 +50,9 @@ const stats = await block("stats", async () => {
   for (const r of repos) if (r.language) langs[r.language] = (langs[r.language] ?? 0) + 1;
   const langStr = Object.entries(langs).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([l]) => l).join(" · ");
   return [
-    "### 📊 仓库总览",
-    `公开仓库 **${repos.length}** 个 · 星标合计 **${stars}** · 语言分布：${langStr}`,
-    top.length ? `被点亮最多：${top.join(" · ")}` : "",
+    "### 📊 Overview",
+    `**${repos.length}** public repos · **${stars}** stars total · Languages: ${langStr}`,
+    top.length ? `Most starred: ${top.join(" · ")}` : "",
   ].filter(Boolean).join("\n");
 });
 
@@ -69,7 +69,7 @@ const releases = await block("releases", async () => {
   out.sort((a, b) => (a.date < b.date ? 1 : -1));
   const lines = out.slice(0, 5)
     .map(x => `- **${x.date}** [${x.repo} · ${x.tag}](${x.url})${x.name ? ` — ${x.name}` : ""}`);
-  return ["### 📦 最近发布", ...(lines.length ? lines : ["（近期无新发布）"])].join("\n");
+  return ["### 📦 Recent releases", ...(lines.length ? lines : ["(no recent releases)"])].join("\n");
 });
 
 // ── 块 3：近 7 天公开活动 ─────────────────────────────────────
@@ -98,7 +98,7 @@ const activity = await block("activity", async () => {
       if (b.other) parts.push(`${b.other} 次动态`);
       return `- **${repo}** — ${parts.join(" · ")}`;
     });
-  return ["### 🛰 近 7 天动态", ...(lines.length ? lines : ["（暂无公开动态）"])].join("\n");
+  return ["### 🛰 Last 7 days", ...(lines.length ? lines : ["(quiet this week)"])].join("\n");
 });
 
 let out = md;
