@@ -1,18 +1,27 @@
-# 你好，我是 Nanami
+# Hello，I'm Nanami
 
-**Agent 工具链与判断工程 · AI PM（杭州）**
+**Agent tooling & judgment engineering · AI PM（HZ）**
 
-## 正在做
+## Building
 
-- **[nanmi-harness](/nanami-0713/nanmi-harness)** —— 个人 coding agent harness，pi-agent 内核库化（非 fork）：四档 fail-closed 权限、append-only 会话与压缩检查点、只读子代理、MCP 桥、hooks、Web GUI / PWA
-- **[jev-resume-screening](/nanami-0713/jev-resume-screening)** —— LLM-as-Judge 简历初筛系统：判据三代迭代封版 + 正/负/陷阱三类样本校准矩阵 + 零依赖 Web 工作台
-- **DSH 插件生态** —— [dsh-jev-decide](/nanami-0713/dsh-jev-decide)（TypeSafe 决策模型接入 agent loop）、[dsh-usage](/nanami-0713/dsh-usage)（逐请求模型×峰谷计费徽标与全局看板）、dsh-notifier / dsh-quota-visor / dsh-turn-jumper 等
+- **[nanmi-harness](/nanmi-0713/nanmi-harness)** — a personal coding agent harness, composed
+  as libraries over pi-agent-core (no fork): four-tier fail-closed permissions, append-only
+  session logs with compaction checkpoints, read-only subagents, a dual-transport MCP bridge,
+  hooks, and a Web GUI / PWA
+- **[jev-resume-screening](/nanami-0713/jev-resume-screening)** — an LLM-as-Judge resume
+  screening system: criteria iterated through three generations to a sealed v3, a
+  positive/negative/trap-sample calibration matrix, and a zero-dependency web workbench
+- **The DSH plugin ecosystem** — [dsh-jev-decide](/nanami-0713/dsh-jev-decide) (wires a TypeSafe
+  decision model into the agent loop), [dsh-usage](/nanami-0713/dsh-usage) (per-request,
+  model-by-peak/off-peak billing badges with a global usage dashboard), plus dsh-notifier /
+  dsh-quota-visor / dsh-turn-jumper
 
-## 在意的事
+## What I'm up to
 
-个人coding agent开发中 · Agent2Agent 编排研究 · LLM 量化成本体系（[acq-framework](/nanami-0713/acq-framework)）
+Building a personal coding agent · Studying agent-to-agent (A2A) orchestration · Quantifying
+the true cost of LLM systems ([acq-framework](/nanami-0713/acq-framework))
 
-## 正在运行
+## GOing On
 
 <!-- AUTO:stats 开始 -->
 （数据生成中——机器人每日自动维护本区）
@@ -26,11 +35,11 @@
 
 <sub>🤖 本区由 GitHub Actions 每日自动更新 · <a href="https://github.com/nanami-0713/nanmi-0713/blob/main/.github/workflows/update-readme.yml">工作流源码</a></sub>
 
-## 工具之外
+## Beyond Tooling
 
-- [notch-island](/nanami-0713/notch-island) —— 把 MacBook 刘海变成 iPhone 式灵动岛
-- [lifttime](/nanami-0713/lifttime) —— 零依赖的健身与时间分配 PWA
+- [notch-island](/nanami-0713/notch-island) —— turns the MacBook notch into an iPhone-style Dynamic Island
+- [lifttime](/nanami-0713/lifttime) —— a zero-dependency workout & time-tracking PWA
 
-## 联系
+## Say HI
 
 2093194326@qq.com/gymlinzhu@gmail.com —— Feel free to chat with me.
