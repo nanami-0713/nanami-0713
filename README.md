@@ -24,46 +24,62 @@ the true cost of LLM systems ([acq-framework](/nanami-0713/acq-framework))
 ## Live
 
 <!-- AUTO:stats 开始 -->
-### 📊 Overview
-**32** public repos · **13** stars total · Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
-Most starred: [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×3 · [dsh-keep-awake](https://github.com/nanami-0713/dsh-keep-awake) ×1 · [dsh-notifier](https://github.com/nanami-0713/dsh-notifier) ×1 · [dsh-plugin-rankings](https://github.com/nanami-0713/dsh-plugin-rankings) ×1 · [dsh-remote-public](https://github.com/nanami-0713/dsh-remote-public) ×1
+| Repos | Stars | Most starred |
+|:-:|:-:|:-:|
+| **32** | **13** | [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×3 · [dsh-keep-awake](https://github.com/nanami-0713/dsh-keep-awake) ×1 · [dsh-notifier](https://github.com/nanami-0713/dsh-notifier) ×1 |
+
+Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
 <!-- AUTO:stats 结束 -->
 
 <!-- AUTO:releases 开始 -->
 ### 📦 Recent releases
-- **2026-09-14** [notch-island · v0.2.0](https://github.com/nanami-0713/notch-island/releases/tag/v0.2.0) — NotchIsland v0.2.0 · 耳机连接动画 + 歌词/管道修复
-- **2026-08-28** [dsh-notifier · v0.5.0](https://github.com/nanami-0713/dsh-notifier/releases/tag/v0.5.0) — v0.5.0 — 上架 npm，一条命令安装
-- **2026-08-28** [dsh-usage · v1.0.1](https://github.com/nanami-0713/dsh-usage/releases/tag/v1.0.1) — dsh-usage v1.0.1 — npm 发布 + 扩展点修复
-- **2026-08-25** [dsh-turn-jumper · v0.2.1](https://github.com/nanami-0713/dsh-turn-jumper/releases/tag/v0.2.1) — @dsh-external/dsh-turn-jumper v0.2.1
-- **2026-08-18** [dsh-usage-board · v0.1.0](https://github.com/nanami-0713/dsh-usage-board/releases/tag/v0.1.0) — @dsh-external/dsh-usage-board v0.1.0
+| Date | Release | Notes |
+|---|---|---|
+| **2026-09-14** | [notch-island · v0.2.0](https://github.com/nanami-0713/notch-island/releases/tag/v0.2.0) | NotchIsland v0.2.0 · 耳机连接动画 + 歌词/管道修复 |
+| **2026-08-28** | [dsh-notifier · v0.5.0](https://github.com/nanami-0713/dsh-notifier/releases/tag/v0.5.0) | 上架 npm，一条命令安装 |
+| **2026-08-28** | [dsh-usage · v1.0.1](https://github.com/nanami-0713/dsh-usage/releases/tag/v1.0.1) | npm 发布 + 扩展点修复 |
+| **2026-08-25** | [dsh-turn-jumper · v0.2.1](https://github.com/nanami-0713/dsh-turn-jumper/releases/tag/v0.2.1) | @dsh-external/dsh-turn-jumper v0.2.1 |
+| **2026-08-18** | [dsh-usage-board · v0.1.0](https://github.com/nanami-0713/dsh-usage-board/releases/tag/v0.1.0) | @dsh-external/dsh-usage-board v0.1.0 |
 <!-- AUTO:releases 结束 -->
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-- **nanami-0713** — 5 个提交 · 1 次动态
-- **dsh-genui** — 2 个提交 · 9 次动态
-- **nanmi-harness** — 1 个提交 · 1 次动态
-- **jev-resume-screening** — 1 个提交
-- **dsh-jev-decide** — 1 个提交
-- **dsh-vision-router** — 7 次动态
-- **DSH-better-sidebar** — 7 次动态
-- **dsh-desktop** — 6 次动态
-- **WeChatBridge** — 1 次动态
-- **dsh-agent-teams** — 4 次动态
-- **thoughtdag** — 4 次动态
-- **awesome-dsh-plugin** — 2 次动态
-- **laya** — 5 次动态
-- **DeepSeek-Reasonix** — 13 次动态
-- **deepseek-harness** — 4 次动态
-- **awesome-jev** — 2 次动态
-- **dsh-web-mobile** — 2 次动态
-- **Maccy** — 1 次动态
-- **dsh-cad** — 1 次动态
-- **jev-chat-jarvis** — 1 次动态
-- **dsh-desktop-1** — 2 次动态
-- **typesafe-sdk-js** — 2 次动态
-- **skills** — 1 次动态
-- **compass** — 1 次动态
+**24** repos active · **11** commits · **86** events
+
+| Repository | Activity | Commits | Events |
+|---|---|:-:|:-:|
+| [DeepSeek-Reasonix](/nanami-0713/DeepSeek-Reasonix) | ██████████ | 0 | 13 |
+| [DSH-better-sidebar](/nanami-0713/DSH-better-sidebar) | █████████░ | 0 | 12 |
+| [dsh-genui](/nanami-0713/dsh-genui) | █████████░ | 2 | 10 |
+| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ██████░░░░ | 0 | 8 |
+| [nanami-0713](/nanami-0713/nanami-0713) | █████░░░░░ | 6 | 1 |
+| [dsh-desktop](/nanami-0713/dsh-desktop) | █████░░░░░ | 0 | 6 |
+| [dsh-agent-teams](/nanami-0713/dsh-agent-teams) | ████░░░░░░ | 0 | 5 |
+| [laya](/nanami-0713/laya) | ████░░░░░░ | 0 | 5 |
+
+<details>
+<summary>…and 16 more active repos</summary>
+
+| Repository | Activity | Commits | Events |
+|---|---|:-:|:-:|
+| [thoughtdag](/nanami-0713/thoughtdag) | ███░░░░░░░ | 0 | 4 |
+| [deepseek-harness](/nanami-0713/deepseek-harness) | ███░░░░░░░ | 0 | 4 |
+| [dsh-web-mobile](/nanami-0713/dsh-web-mobile) | ██░░░░░░░░ | 0 | 3 |
+| [nanmi-harness](/nanami-0713/nanmi-harness) | ██░░░░░░░░ | 1 | 1 |
+| [awesome-dsh-plugin](/nanami-0713/awesome-dsh-plugin) | ██░░░░░░░░ | 0 | 2 |
+| [awesome-jev](/nanami-0713/awesome-jev) | ██░░░░░░░░ | 0 | 2 |
+| [dsh-desktop-1](/nanami-0713/dsh-desktop-1) | ██░░░░░░░░ | 0 | 2 |
+| [typesafe-sdk-js](/nanami-0713/typesafe-sdk-js) | ██░░░░░░░░ | 0 | 2 |
+| [WeChatBridge](/nanami-0713/WeChatBridge) | █░░░░░░░░░ | 0 | 1 |
+| [jev-resume-screening](/nanami-0713/jev-resume-screening) | █░░░░░░░░░ | 1 | 0 |
+| [Maccy](/nanami-0713/Maccy) | █░░░░░░░░░ | 0 | 1 |
+| [dsh-jev-decide](/nanami-0713/dsh-jev-decide) | █░░░░░░░░░ | 1 | 0 |
+| [dsh-cad](/nanami-0713/dsh-cad) | █░░░░░░░░░ | 0 | 1 |
+| [jev-chat-jarvis](/nanami-0713/jev-chat-jarvis) | █░░░░░░░░░ | 0 | 1 |
+| [skills](/nanami-0713/skills) | █░░░░░░░░░ | 0 | 1 |
+| [compass](/nanami-0713/compass) | █░░░░░░░░░ | 0 | 1 |
+
+</details>
 <!-- AUTO:activity 结束 -->
 
 <sub>This section updates daily via GitHub Actions · <a href="https://github.com/nanami-0713/nanmi-0713/blob/main/.github/workflows/update-readme.yml">Workflow Sourcecode</a></sub>

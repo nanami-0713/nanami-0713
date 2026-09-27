@@ -16,6 +16,7 @@ async function gh(path) {
 }
 
 const fmtDate = (iso) => (iso ?? "").slice(0, 10);
+const esc = (s) => (s ?? "").replace(/\|/g, "\\|").trim();
 const withRetry = async (fn, n = 3) => {
   for (let i = 1; ; i++) {
     try { return await fn(); } catch (e) {
@@ -37,42 +38,59 @@ async function block(name, gen) {
 
 const md = await readFile("README.md", "utf8");
 
-// ── 块 1：仓库总览 ────────────────────────────────────────────
+// ── 块 1：Overview（迷你表格 + 语言行）────────────────────────
 const stats = await block("stats", async () => {
   const repos = await gh(`/users/${OWNER}/repos?per_page=100`);
   const stars = repos.reduce((s, r) => s + r.stargazers_count, 0);
   const top = repos
     .filter(r => r.stargazers_count > 0)
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .slice(0, 5)
+    .slice(0, 3)
     .map(r => `[${r.name}](${r.html_url}) ×${r.stargazers_count}`);
   const langs = {};
   for (const r of repos) if (r.language) langs[r.language] = (langs[r.language] ?? 0) + 1;
   const langStr = Object.entries(langs).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([l]) => l).join(" · ");
   return [
-    "### 📊 Overview",
-    `**${repos.length}** public repos · **${stars}** stars total · Languages: ${langStr}`,
-    top.length ? `Most starred: ${top.join(" · ")}` : "",
-  ].filter(Boolean).join("\n");
+    "| Repos | Stars | Most starred |",
+    "|:-:|:-:|:-:|",
+    `| **${repos.length}** | **${stars}** | ${top.length ? top.join(" · ") : "—"} |`,
+    "",
+    `Languages: ${langStr}`,
+  ].join("\n");
 });
 
-// ── 块 2：最近发布（跨仓库 release 流）─────────────────────────
+// ── 块 2：Recent releases（日期表）────────────────────────────
 const releases = await block("releases", async () => {
   const repos = await gh(`/users/${OWNER}/repos?per_page=100&sort=updated`);
   const out = [];
   for (const r of repos) {
     try {
       const rel = await gh(`/repos/${OWNER}/${r.name}/releases/latest`);
-      out.push({ repo: r.name, tag: rel.tag_name, name: rel.name, url: rel.html_url, date: fmtDate(rel.published_at) });
+      let note = esc(rel.name);
+      // 去掉与 repo·tag 重复的前缀，表格里不重复占宽
+      try {
+        note = note
+          .replace(new RegExp(`^${r.name}\\s*`, "i"), "")
+          .replace(new RegExp(`^${rel.tag_name}\\s*[—–-]*\\s*`, "i"), "")
+          .replace(/^[—–-]+\s*/, "");
+      } catch { /* 正则元字符时保留原文 */ }
+      out.push({ repo: r.name, tag: rel.tag_name, note, url: rel.html_url, date: fmtDate(rel.published_at) });
     } catch { /* 404 = 无 release，正常 */ }
   }
   out.sort((a, b) => (a.date < b.date ? 1 : -1));
-  const lines = out.slice(0, 5)
-    .map(x => `- **${x.date}** [${x.repo} · ${x.tag}](${x.url})${x.name ? ` — ${x.name}` : ""}`);
-  return ["### 📦 Recent releases", ...(lines.length ? lines : ["(no recent releases)"])].join("\n");
+  const rows = out.slice(0, 5).map(x =>
+    `| **${x.date}** | [${x.repo} · ${x.tag}](${x.url}) | ${x.note || "—"} |`);
+  return [
+    "### 📦 Recent releases",
+    ...(rows.length ? [
+      "| Date | Release | Notes |",
+      "|---|---|---|",
+      ...rows,
+    ] : ["(no recent releases)"]),
+  ].join("\n");
 });
 
-// ── 块 3：近 7 天公开活动 ─────────────────────────────────────
+// ── 块 3：Last 7 days（横条图 + 折叠长尾）─────────────────────
 const activity = await block("activity", async () => {
   const since = new Date(Date.now() - 7 * 864e5).toISOString();
   const events = [];
@@ -89,16 +107,41 @@ const activity = await block("activity", async () => {
     else if (e.type === "ReleaseEvent") { b.release++; }
     else { b.other++; }
   }
-  const lines = Object.entries(byRepo)
-    .sort((a, b) => (b[1].commits + b[1].release) - (a[1].commits + a[1].release))
-    .map(([repo, b]) => {
-      const parts = [];
-      if (b.commits) parts.push(`${b.commits} commits`);
-      if (b.release) parts.push(`${b.release} releases`);
-      if (b.other) parts.push(`${b.other} events`);
-      return `- **${repo}** — ${parts.join(" · ")}`;
-    });
-  return ["### 🛰 Last 7 days", ...(lines.length ? lines : ["(quiet this week)"])].join("\n");
+  const rows = Object.entries(byRepo)
+    .map(([repo, b]) => ({ repo, b, score: b.commits + b.release * 2 + b.other }))
+    .sort((a, b) => b.score - a.score);
+  if (!rows.length) {
+    return ["### 🛰 Last 7 days", "(quiet this week)"].join("\n");
+  }
+  const max = Math.max(...rows.map(r => r.score), 1);
+  const bar = (s) => { const n = Math.min(10, Math.max(1, Math.round((s / max) * 10))); return "█".repeat(n) + "░".repeat(10 - n); };
+  const link = (repo) => `[${repo}](/${OWNER}/${repo})`;
+  const totals = rows.reduce((t, r) => ({ c: t.c + r.b.commits, e: t.e + r.b.release + r.b.other }), { c: 0, e: 0 });
+  const row = (r) => `| ${link(r.repo)} | ${bar(r.score)} | ${r.b.commits} | ${r.b.release + r.b.other} |`;
+  const table = (items) => [
+    "| Repository | Activity | Commits | Events |",
+    "|---|---|:-:|:-:|",
+    ...items.map(row),
+  ];
+  const head = [
+    "### 🛰 Last 7 days",
+    `**${rows.length}** repos active · **${totals.c}** commits · **${totals.e}** events`,
+    "",
+    ...table(rows.slice(0, 8)),
+  ];
+  const rest = rows.slice(8);
+  if (rest.length) {
+    head.push(
+      "",
+      "<details>",
+      `<summary>…and ${rest.length} more active repos</summary>`,
+      "",
+      ...table(rest),
+      "",
+      "</details>",
+    );
+  }
+  return head.join("\n");
 });
 
 let out = md;
