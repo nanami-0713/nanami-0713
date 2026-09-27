@@ -26,7 +26,7 @@ the true cost of LLM systems ([acq-framework](/nanami-0713/acq-framework))
 <!-- AUTO:stats 开始 -->
 | Repos | Stars | Most starred |
 |:-:|:-:|:-:|
-| **32** | **13** | [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×3 · [dsh-keep-awake](https://github.com/nanami-0713/dsh-keep-awake) ×1 · [dsh-notifier](https://github.com/nanami-0713/dsh-notifier) ×1 |
+| **34** | **13** | [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×3 · [dsh-keep-awake](https://github.com/nanami-0713/dsh-keep-awake) ×1 · [dsh-notifier](https://github.com/nanami-0713/dsh-notifier) ×1 |
 
 Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
 <!-- AUTO:stats 结束 -->
@@ -44,40 +44,43 @@ Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**24** repos active · **11** commits · **86** events
+**27** repos active · **12** commits · **79** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [DeepSeek-Reasonix](/nanami-0713/DeepSeek-Reasonix) | ██████████ | 0 | 13 |
-| [DSH-better-sidebar](/nanami-0713/DSH-better-sidebar) | █████████░ | 0 | 12 |
-| [dsh-genui](/nanami-0713/dsh-genui) | █████████░ | 2 | 10 |
-| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ██████░░░░ | 0 | 8 |
-| [nanami-0713](/nanami-0713/nanami-0713) | █████░░░░░ | 6 | 1 |
+| [dsh-genui](/nanami-0713/dsh-genui) | ██████████ | 2 | 9 |
+| [DeepSeek-Reasonix](/nanami-0713/DeepSeek-Reasonix) | █████████░ | 0 | 10 |
+| [nanami-0713](/nanami-0713/nanami-0713) | ███████░░░ | 7 | 1 |
+| [DSH-better-sidebar](/nanami-0713/DSH-better-sidebar) | ██████░░░░ | 0 | 7 |
+| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ██████░░░░ | 0 | 7 |
 | [dsh-desktop](/nanami-0713/dsh-desktop) | █████░░░░░ | 0 | 6 |
-| [dsh-agent-teams](/nanami-0713/dsh-agent-teams) | ████░░░░░░ | 0 | 5 |
-| [laya](/nanami-0713/laya) | ████░░░░░░ | 0 | 5 |
+| [dsh-agent-teams](/nanami-0713/dsh-agent-teams) | █████░░░░░ | 0 | 5 |
+| [refined-github](/nanami-0713/refined-github) | ████░░░░░░ | 0 | 4 |
 
 <details>
-<summary>…and 16 more active repos</summary>
+<summary>…and 19 more active repos</summary>
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [thoughtdag](/nanami-0713/thoughtdag) | ███░░░░░░░ | 0 | 4 |
-| [deepseek-harness](/nanami-0713/deepseek-harness) | ███░░░░░░░ | 0 | 4 |
-| [dsh-web-mobile](/nanami-0713/dsh-web-mobile) | ██░░░░░░░░ | 0 | 3 |
+| [vitest](/nanami-0713/vitest) | ████░░░░░░ | 0 | 4 |
+| [thoughtdag](/nanami-0713/thoughtdag) | ████░░░░░░ | 0 | 4 |
+| [laya](/nanami-0713/laya) | ████░░░░░░ | 0 | 4 |
+| [deepseek-harness](/nanami-0713/deepseek-harness) | ███░░░░░░░ | 0 | 3 |
+| [stats](/nanami-0713/stats) | ██░░░░░░░░ | 0 | 2 |
 | [nanmi-harness](/nanami-0713/nanmi-harness) | ██░░░░░░░░ | 1 | 1 |
-| [awesome-dsh-plugin](/nanami-0713/awesome-dsh-plugin) | ██░░░░░░░░ | 0 | 2 |
-| [awesome-jev](/nanami-0713/awesome-jev) | ██░░░░░░░░ | 0 | 2 |
-| [dsh-desktop-1](/nanami-0713/dsh-desktop-1) | ██░░░░░░░░ | 0 | 2 |
-| [typesafe-sdk-js](/nanami-0713/typesafe-sdk-js) | ██░░░░░░░░ | 0 | 2 |
+| [dsh-web-mobile](/nanami-0713/dsh-web-mobile) | ██░░░░░░░░ | 0 | 2 |
+| [servers](/nanami-0713/servers) | █░░░░░░░░░ | 0 | 1 |
+| [pnpm](/nanami-0713/pnpm) | █░░░░░░░░░ | 0 | 1 |
+| [gemini-cli](/nanami-0713/gemini-cli) | █░░░░░░░░░ | 0 | 1 |
 | [WeChatBridge](/nanami-0713/WeChatBridge) | █░░░░░░░░░ | 0 | 1 |
+| [awesome-dsh-plugin](/nanami-0713/awesome-dsh-plugin) | █░░░░░░░░░ | 0 | 1 |
 | [jev-resume-screening](/nanami-0713/jev-resume-screening) | █░░░░░░░░░ | 1 | 0 |
+| [awesome-jev](/nanami-0713/awesome-jev) | █░░░░░░░░░ | 0 | 1 |
 | [Maccy](/nanami-0713/Maccy) | █░░░░░░░░░ | 0 | 1 |
 | [dsh-jev-decide](/nanami-0713/dsh-jev-decide) | █░░░░░░░░░ | 1 | 0 |
 | [dsh-cad](/nanami-0713/dsh-cad) | █░░░░░░░░░ | 0 | 1 |
 | [jev-chat-jarvis](/nanami-0713/jev-chat-jarvis) | █░░░░░░░░░ | 0 | 1 |
-| [skills](/nanami-0713/skills) | █░░░░░░░░░ | 0 | 1 |
-| [compass](/nanami-0713/compass) | █░░░░░░░░░ | 0 | 1 |
+| [dsh-desktop-1](/nanami-0713/dsh-desktop-1) | █░░░░░░░░░ | 0 | 1 |
 
 </details>
 <!-- AUTO:activity 结束 -->
