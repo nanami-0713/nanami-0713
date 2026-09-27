@@ -93,9 +93,9 @@ const activity = await block("activity", async () => {
     .sort((a, b) => (b[1].commits + b[1].release) - (a[1].commits + a[1].release))
     .map(([repo, b]) => {
       const parts = [];
-      if (b.commits) parts.push(`${b.commits} 个提交`);
-      if (b.release) parts.push(`${b.release} 个发布`);
-      if (b.other) parts.push(`${b.other} 次动态`);
+      if (b.commits) parts.push(`${b.commits} commits`);
+      if (b.release) parts.push(`${b.release} releases`);
+      if (b.other) parts.push(`${b.other} events`);
       return `- **${repo}** — ${parts.join(" · ")}`;
     });
   return ["### 🛰 Last 7 days", ...(lines.length ? lines : ["(quiet this week)"])].join("\n");
