@@ -44,21 +44,21 @@ Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**27** repos active · **12** commits · **79** events
+**26** repos active · **12** commits · **80** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
 | [dsh-genui](/nanami-0713/dsh-genui) | ██████████ | 2 | 9 |
 | [DeepSeek-Reasonix](/nanami-0713/DeepSeek-Reasonix) | █████████░ | 0 | 10 |
+| [DSH-better-sidebar](/nanami-0713/DSH-better-sidebar) | ████████░░ | 0 | 9 |
 | [nanami-0713](/nanami-0713/nanami-0713) | ███████░░░ | 7 | 1 |
-| [DSH-better-sidebar](/nanami-0713/DSH-better-sidebar) | ██████░░░░ | 0 | 7 |
 | [dsh-vision-router](/nanami-0713/dsh-vision-router) | ██████░░░░ | 0 | 7 |
 | [dsh-desktop](/nanami-0713/dsh-desktop) | █████░░░░░ | 0 | 6 |
 | [dsh-agent-teams](/nanami-0713/dsh-agent-teams) | █████░░░░░ | 0 | 5 |
 | [refined-github](/nanami-0713/refined-github) | ████░░░░░░ | 0 | 4 |
 
 <details>
-<summary>…and 19 more active repos</summary>
+<summary>…and 18 more active repos</summary>
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
@@ -80,7 +80,6 @@ Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
 | [dsh-jev-decide](/nanami-0713/dsh-jev-decide) | █░░░░░░░░░ | 1 | 0 |
 | [dsh-cad](/nanami-0713/dsh-cad) | █░░░░░░░░░ | 0 | 1 |
 | [jev-chat-jarvis](/nanami-0713/jev-chat-jarvis) | █░░░░░░░░░ | 0 | 1 |
-| [dsh-desktop-1](/nanami-0713/dsh-desktop-1) | █░░░░░░░░░ | 0 | 1 |
 
 </details>
 <!-- AUTO:activity 结束 -->
