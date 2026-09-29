@@ -44,7 +44,7 @@ Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**26** repos active · **12** commits · **80** events
+**28** repos active · **12** commits · **81** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
@@ -58,17 +58,19 @@ Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
 | [refined-github](/nanami-0713/refined-github) | ████░░░░░░ | 0 | 4 |
 
 <details>
-<summary>…and 18 more active repos</summary>
+<summary>…and 20 more active repos</summary>
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
 | [vitest](/nanami-0713/vitest) | ████░░░░░░ | 0 | 4 |
 | [thoughtdag](/nanami-0713/thoughtdag) | ████░░░░░░ | 0 | 4 |
-| [laya](/nanami-0713/laya) | ████░░░░░░ | 0 | 4 |
+| [laya](/nanami-0713/laya) | ███░░░░░░░ | 0 | 3 |
 | [deepseek-harness](/nanami-0713/deepseek-harness) | ███░░░░░░░ | 0 | 3 |
 | [stats](/nanami-0713/stats) | ██░░░░░░░░ | 0 | 2 |
 | [nanmi-harness](/nanami-0713/nanmi-harness) | ██░░░░░░░░ | 1 | 1 |
 | [dsh-web-mobile](/nanami-0713/dsh-web-mobile) | ██░░░░░░░░ | 0 | 2 |
+| [dsh-context](/nanami-0713/dsh-context) | █░░░░░░░░░ | 0 | 1 |
+| [dsh-desktop-1](/nanami-0713/dsh-desktop-1) | █░░░░░░░░░ | 0 | 1 |
 | [servers](/nanami-0713/servers) | █░░░░░░░░░ | 0 | 1 |
 | [pnpm](/nanami-0713/pnpm) | █░░░░░░░░░ | 0 | 1 |
 | [gemini-cli](/nanami-0713/gemini-cli) | █░░░░░░░░░ | 0 | 1 |
