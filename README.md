@@ -93,6 +93,6 @@ Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
 - [notch-island](/nanami-0713/notch-island) —— turns the MacBook notch into an iPhone-style Dynamic Island
 - [lifttime](/nanami-0713/lifttime) —— a zero-dependency workout & time-tracking PWA
 
-## Say HI
+## Say Hi
 
 2093194326@qq.com/gymlinzhu@gmail.com —— Feel free to chat with me.
