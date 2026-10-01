@@ -44,33 +44,33 @@ Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**29** repos active · **21** commits · **78** events
+**29** repos active · **25** commits · **86** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [notch-island](/nanami-0713/notch-island) | ██████████ | 7 | 2 |
-| [nanami-0713](/nanami-0713/nanami-0713) | █████████░ | 8 | 1 |
-| [dsh-genui](/nanami-0713/dsh-genui) | █████████░ | 2 | 7 |
-| [DeepSeek-Reasonix](/nanami-0713/DeepSeek-Reasonix) | █████████░ | 0 | 9 |
-| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ██████░░░░ | 0 | 6 |
-| [thoughtdag](/nanami-0713/thoughtdag) | ██████░░░░ | 0 | 6 |
-| [dsh-desktop](/nanami-0713/dsh-desktop) | ██████░░░░ | 0 | 6 |
-| [dsh-context](/nanami-0713/dsh-context) | █████░░░░░ | 0 | 4 |
+| [notch-island](/nanami-0713/notch-island) | ██████████ | 11 | 3 |
+| [nanami-0713](/nanami-0713/nanami-0713) | ██████░░░░ | 8 | 1 |
+| [DeepSeek-Reasonix](/nanami-0713/DeepSeek-Reasonix) | ██████░░░░ | 0 | 9 |
+| [thoughtdag](/nanami-0713/thoughtdag) | █████░░░░░ | 0 | 8 |
+| [dsh-desktop](/nanami-0713/dsh-desktop) | █████░░░░░ | 0 | 8 |
+| [dsh-genui](/nanami-0713/dsh-genui) | █████░░░░░ | 2 | 6 |
+| [DSH-better-sidebar](/nanami-0713/DSH-better-sidebar) | █████░░░░░ | 0 | 7 |
+| [dsh-vision-router](/nanami-0713/dsh-vision-router) | █████░░░░░ | 0 | 7 |
 
 <details>
 <summary>…and 21 more active repos</summary>
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [dsh-agent-teams](/nanami-0713/dsh-agent-teams) | █████░░░░░ | 0 | 5 |
-| [DSH-better-sidebar](/nanami-0713/DSH-better-sidebar) | ████░░░░░░ | 0 | 4 |
-| [refined-github](/nanami-0713/refined-github) | ████░░░░░░ | 0 | 4 |
-| [vitest](/nanami-0713/vitest) | ████░░░░░░ | 0 | 4 |
-| [dsh-usage](/nanami-0713/dsh-usage) | ███░░░░░░░ | 1 | 2 |
-| [deepseek-harness](/nanami-0713/deepseek-harness) | ███░░░░░░░ | 0 | 3 |
-| [dsh-jev-decide](/nanami-0713/dsh-jev-decide) | ██░░░░░░░░ | 1 | 1 |
-| [stats](/nanami-0713/stats) | ██░░░░░░░░ | 0 | 2 |
-| [nanmi-harness](/nanami-0713/nanmi-harness) | ██░░░░░░░░ | 1 | 1 |
+| [dsh-context](/nanami-0713/dsh-context) | ███░░░░░░░ | 0 | 4 |
+| [dsh-agent-teams](/nanami-0713/dsh-agent-teams) | ███░░░░░░░ | 0 | 5 |
+| [refined-github](/nanami-0713/refined-github) | ███░░░░░░░ | 0 | 4 |
+| [vitest](/nanami-0713/vitest) | ███░░░░░░░ | 0 | 4 |
+| [dsh-usage](/nanami-0713/dsh-usage) | ██░░░░░░░░ | 1 | 2 |
+| [deepseek-harness](/nanami-0713/deepseek-harness) | ██░░░░░░░░ | 0 | 3 |
+| [dsh-jev-decide](/nanami-0713/dsh-jev-decide) | █░░░░░░░░░ | 1 | 1 |
+| [stats](/nanami-0713/stats) | █░░░░░░░░░ | 0 | 2 |
+| [nanmi-harness](/nanami-0713/nanmi-harness) | █░░░░░░░░░ | 1 | 1 |
 | [dsh-web-mobile](/nanami-0713/dsh-web-mobile) | █░░░░░░░░░ | 0 | 1 |
 | [AemeathCLI](/nanami-0713/AemeathCLI) | █░░░░░░░░░ | 0 | 1 |
 | [Kigi-CLI](/nanami-0713/Kigi-CLI) | █░░░░░░░░░ | 0 | 1 |
