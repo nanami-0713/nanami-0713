@@ -44,30 +44,31 @@ Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**24** repos active · **26** commits · **65** events
+**23** repos active · **20** commits · **57** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
 | [notch-island](/nanami-0713/notch-island) | ██████████ | 12 | 3 |
-| [nanami-0713](/nanami-0713/nanami-0713) | ██████░░░░ | 8 | 1 |
-| [dsh-vision-router](/nanami-0713/dsh-vision-router) | █████░░░░░ | 0 | 8 |
 | [thoughtdag](/nanami-0713/thoughtdag) | ████░░░░░░ | 0 | 7 |
-| [DSH-better-sidebar](/nanami-0713/DSH-better-sidebar) | ████░░░░░░ | 0 | 7 |
-| [dsh-desktop](/nanami-0713/dsh-desktop) | ████░░░░░░ | 0 | 7 |
+| [DSH-better-sidebar](/nanami-0713/DSH-better-sidebar) | ████░░░░░░ | 0 | 6 |
+| [dsh-desktop](/nanami-0713/dsh-desktop) | ████░░░░░░ | 0 | 6 |
+| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ███░░░░░░░ | 0 | 5 |
 | [dsh-usage](/nanami-0713/dsh-usage) | ███░░░░░░░ | 3 | 2 |
 | [dsh-context](/nanami-0713/dsh-context) | ███░░░░░░░ | 0 | 4 |
+| [refined-github](/nanami-0713/refined-github) | ███░░░░░░░ | 0 | 4 |
 
 <details>
-<summary>…and 16 more active repos</summary>
+<summary>…and 15 more active repos</summary>
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [dsh-genui](/nanami-0713/dsh-genui) | ███░░░░░░░ | 0 | 4 |
-| [refined-github](/nanami-0713/refined-github) | ███░░░░░░░ | 0 | 4 |
 | [vitest](/nanami-0713/vitest) | ███░░░░░░░ | 0 | 4 |
 | [dsh-jev-decide](/nanami-0713/dsh-jev-decide) | ██░░░░░░░░ | 2 | 1 |
+| [nanami-0713](/nanami-0713/nanami-0713) | ██░░░░░░░░ | 3 | 0 |
 | [dsh-web-mobile](/nanami-0713/dsh-web-mobile) | █░░░░░░░░░ | 0 | 2 |
+| [dsh-genui](/nanami-0713/dsh-genui) | █░░░░░░░░░ | 0 | 2 |
 | [stats](/nanami-0713/stats) | █░░░░░░░░░ | 0 | 2 |
+| [x_gift_bot](/nanami-0713/x_gift_bot) | █░░░░░░░░░ | 0 | 1 |
 | [AemeathCLI](/nanami-0713/AemeathCLI) | █░░░░░░░░░ | 0 | 1 |
 | [Kigi-CLI](/nanami-0713/Kigi-CLI) | █░░░░░░░░░ | 0 | 1 |
 | [dsh-desktop-1](/nanami-0713/dsh-desktop-1) | █░░░░░░░░░ | 0 | 1 |
@@ -76,8 +77,6 @@ Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
 | [pnpm](/nanami-0713/pnpm) | █░░░░░░░░░ | 0 | 1 |
 | [gemini-cli](/nanami-0713/gemini-cli) | █░░░░░░░░░ | 0 | 1 |
 | [dsh-agent-teams](/nanami-0713/dsh-agent-teams) | █░░░░░░░░░ | 0 | 1 |
-| [nanmi-harness](/nanami-0713/nanmi-harness) | █░░░░░░░░░ | 1 | 0 |
-| [WeChatBridge](/nanami-0713/WeChatBridge) | █░░░░░░░░░ | 0 | 1 |
 
 </details>
 <!-- AUTO:activity 结束 -->
