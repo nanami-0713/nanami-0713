@@ -4,10 +4,10 @@
 
 ## Building
 
-- **[nanmi-harness](/nanmi-0713/nanmi-harness)** — a personal coding agent harness, composed
-  as libraries over pi-agent-core (no fork): four-tier fail-closed permissions, append-only
-  session logs with compaction checkpoints, read-only subagents, a dual-transport MCP bridge,
-  hooks, and a Web GUI / PWA
+- **[nanami-harness](/nanami-0713/nanami-harness)** — a personal coding agent harness, composed
+  as libraries over pi-agent-core (no fork): a multi-provider model catalog with a management
+  panel, plugins & MCP config files, Codex-style computer use, image input, an idle watchdog,
+  session forking, and a self-healing Web GUI / PWA
 - **[jev-resume-screening](/nanami-0713/jev-resume-screening)** — an LLM-as-Judge resume
   screening system: criteria iterated through three generations to a sealed v3, a
   positive/negative/trap-sample calibration matrix, and a zero-dependency web workbench
