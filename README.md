@@ -26,7 +26,7 @@ the true cost of LLM systems ([acq-framework](/nanami-0713/acq-framework))
 <!-- AUTO:stats 开始 -->
 | Repos | Stars | Most starred |
 |:-:|:-:|:-:|
-| **35** | **13** | [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×3 · [dsh-keep-awake](https://github.com/nanami-0713/dsh-keep-awake) ×1 · [dsh-notifier](https://github.com/nanami-0713/dsh-notifier) ×1 |
+| **38** | **14** | [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×3 · [dsh-keep-awake](https://github.com/nanami-0713/dsh-keep-awake) ×1 · [dsh-notifier](https://github.com/nanami-0713/dsh-notifier) ×1 |
 
 Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
 <!-- AUTO:stats 结束 -->
@@ -35,42 +35,47 @@ Languages: TypeScript · JavaScript · Python · Dart · Swift · Kotlin
 ### 📦 Recent releases
 | Date | Release | Notes |
 |---|---|---|
+| **2026-10-05** | [token-ledger · v0.2.0](https://github.com/nanami-0713/token-ledger/releases/tag/v0.2.0) | TokenLedger 0.2.0 |
 | **2026-09-30** | [dsh-context · issue-96-screenshots](https://github.com/nanami-0713/dsh-context/releases/tag/issue-96-screenshots) | Screenshots for issue #96 (DNA + Delta combo tooltip) |
 | **2026-09-30** | [notch-island · v0.3.0](https://github.com/nanami-0713/notch-island/releases/tag/v0.3.0) | NotchIsland v0.3.0 · Agent 状态岛 |
 | **2026-08-28** | [dsh-notifier · v0.5.0](https://github.com/nanami-0713/dsh-notifier/releases/tag/v0.5.0) | 上架 npm，一条命令安装 |
 | **2026-08-28** | [dsh-usage · v1.0.1](https://github.com/nanami-0713/dsh-usage/releases/tag/v1.0.1) | npm 发布 + 扩展点修复 |
-| **2026-08-25** | [dsh-turn-jumper · v0.2.1](https://github.com/nanami-0713/dsh-turn-jumper/releases/tag/v0.2.1) | @dsh-external/dsh-turn-jumper v0.2.1 |
 <!-- AUTO:releases 结束 -->
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**17** repos active · **20** commits · **42** events
+**22** repos active · **22** commits · **53** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [notch-island](/nanami-0713/notch-island) | ██████████ | 13 | 4 |
+| [notch-island](/nanami-0713/notch-island) | ██████████ | 13 | 5 |
+| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ████░░░░░░ | 0 | 7 |
 | [thoughtdag](/nanami-0713/thoughtdag) | ████░░░░░░ | 0 | 7 |
-| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ███░░░░░░░ | 0 | 5 |
 | [dsh-usage](/nanami-0713/dsh-usage) | ███░░░░░░░ | 3 | 2 |
-| [DSH-better-sidebar](/nanami-0713/DSH-better-sidebar) | ███░░░░░░░ | 0 | 5 |
 | [dsh-context](/nanami-0713/dsh-context) | ███░░░░░░░ | 0 | 4 |
-| [dsh-desktop](/nanami-0713/dsh-desktop) | ██░░░░░░░░ | 0 | 4 |
-| [dsh-jev-decide](/nanami-0713/dsh-jev-decide) | ██░░░░░░░░ | 2 | 1 |
+| [token-ledger](/nanami-0713/token-ledger) | ██░░░░░░░░ | 1 | 2 |
+| [dsh-genui](/nanami-0713/dsh-genui) | ██░░░░░░░░ | 0 | 3 |
+| [Ely-GPUI-Showcases](/nanami-0713/Ely-GPUI-Showcases) | ██░░░░░░░░ | 0 | 3 |
 
 <details>
-<summary>…and 9 more active repos</summary>
+<summary>…and 14 more active repos</summary>
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
+| [Ely-GPUI-Components](/nanami-0713/Ely-GPUI-Components) | ██░░░░░░░░ | 0 | 3 |
+| [dsh-desktop](/nanami-0713/dsh-desktop) | ██░░░░░░░░ | 0 | 3 |
+| [dsh-jev-decide](/nanami-0713/dsh-jev-decide) | ██░░░░░░░░ | 2 | 1 |
+| [DSH-better-sidebar](/nanami-0713/DSH-better-sidebar) | ██░░░░░░░░ | 0 | 3 |
+| [nanami-0713](/nanami-0713/nanami-0713) | █░░░░░░░░░ | 2 | 0 |
 | [nanami-harness](/nanami-0713/nanami-harness) | █░░░░░░░░░ | 1 | 1 |
 | [dsh-web-mobile](/nanami-0713/dsh-web-mobile) | █░░░░░░░░░ | 0 | 2 |
-| [dsh-genui](/nanami-0713/dsh-genui) | █░░░░░░░░░ | 0 | 2 |
+| [magpie](/nanami-0713/magpie) | █░░░░░░░░░ | 0 | 1 |
+| [Maccy](/nanami-0713/Maccy) | █░░░░░░░░░ | 0 | 1 |
+| [refined-github](/nanami-0713/refined-github) | █░░░░░░░░░ | 0 | 1 |
+| [dsh-agent-teams](/nanami-0713/dsh-agent-teams) | █░░░░░░░░░ | 0 | 1 |
 | [x_gift_bot](/nanami-0713/x_gift_bot) | █░░░░░░░░░ | 0 | 1 |
-| [nanami-0713](/nanami-0713/nanami-0713) | █░░░░░░░░░ | 1 | 0 |
 | [AemeathCLI](/nanami-0713/AemeathCLI) | █░░░░░░░░░ | 0 | 1 |
 | [Kigi-CLI](/nanami-0713/Kigi-CLI) | █░░░░░░░░░ | 0 | 1 |
-| [dsh-desktop-1](/nanami-0713/dsh-desktop-1) | █░░░░░░░░░ | 0 | 1 |
-| [DeepSeek-Reasonix](/nanami-0713/DeepSeek-Reasonix) | █░░░░░░░░░ | 0 | 1 |
 
 </details>
 <!-- AUTO:activity 结束 -->
