@@ -26,7 +26,7 @@ the true cost of LLM systems ([acq-framework](/nanami-0713/acq-framework))
 <!-- AUTO:stats 开始 -->
 | Repos | Stars | Most starred |
 |:-:|:-:|:-:|
-| **39** | **15** | [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×3 · [token-ledger](https://github.com/nanami-0713/token-ledger) ×2 · [dsh-keep-awake](https://github.com/nanami-0713/dsh-keep-awake) ×1 |
+| **39** | **16** | [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 · [token-ledger](https://github.com/nanami-0713/token-ledger) ×2 · [dsh-keep-awake](https://github.com/nanami-0713/dsh-keep-awake) ×1 |
 
 Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 <!-- AUTO:stats 结束 -->
@@ -44,33 +44,34 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**20** repos active · **21** commits · **46** events
+**21** repos active · **19** commits · **40** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
 | [token-ledger](/nanami-0713/token-ledger) | ██████████ | 9 | 2 |
-| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ████████░░ | 0 | 9 |
+| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ███████░░░ | 0 | 8 |
 | [Ely-GPUI-Components](/nanami-0713/Ely-GPUI-Components) | ████░░░░░░ | 0 | 5 |
-| [notch-island](/nanami-0713/notch-island) | ████░░░░░░ | 3 | 2 |
-| [thoughtdag](/nanami-0713/thoughtdag) | ████░░░░░░ | 0 | 5 |
 | [self-record](/nanami-0713/self-record) | ███░░░░░░░ | 1 | 2 |
 | [Ely-GPUI-Showcases](/nanami-0713/Ely-GPUI-Showcases) | ███░░░░░░░ | 0 | 4 |
 | [refined-github](/nanami-0713/refined-github) | ███░░░░░░░ | 2 | 2 |
+| [notch-island](/nanami-0713/notch-island) | ███░░░░░░░ | 1 | 2 |
+| [thoughtdag](/nanami-0713/thoughtdag) | ███░░░░░░░ | 0 | 3 |
 
 <details>
-<summary>…and 12 more active repos</summary>
+<summary>…and 13 more active repos</summary>
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [dsh-desktop](/nanami-0713/dsh-desktop) | ███░░░░░░░ | 0 | 3 |
-| [DSH-better-sidebar](/nanami-0713/DSH-better-sidebar) | ███░░░░░░░ | 0 | 3 |
 | [nanami-0713](/nanami-0713/nanami-0713) | ██░░░░░░░░ | 2 | 0 |
 | [dsh-genui](/nanami-0713/dsh-genui) | ██░░░░░░░░ | 0 | 2 |
 | [Maccy](/nanami-0713/Maccy) | ██░░░░░░░░ | 1 | 1 |
 | [nanami-harness](/nanami-0713/nanami-harness) | ██░░░░░░░░ | 1 | 1 |
 | [dsh-usage](/nanami-0713/dsh-usage) | ██░░░░░░░░ | 2 | 0 |
+| [liquid-glass](/nanami-0713/liquid-glass) | █░░░░░░░░░ | 0 | 1 |
+| [rea](/nanami-0713/rea) | █░░░░░░░░░ | 0 | 1 |
 | [moli](/nanami-0713/moli) | █░░░░░░░░░ | 0 | 1 |
 | [magpie](/nanami-0713/magpie) | █░░░░░░░░░ | 0 | 1 |
+| [dsh-desktop](/nanami-0713/dsh-desktop) | █░░░░░░░░░ | 0 | 1 |
 | [dsh-agent-teams](/nanami-0713/dsh-agent-teams) | █░░░░░░░░░ | 0 | 1 |
 | [x_gift_bot](/nanami-0713/x_gift_bot) | █░░░░░░░░░ | 0 | 1 |
 | [dsh-web-mobile](/nanami-0713/dsh-web-mobile) | █░░░░░░░░░ | 0 | 1 |
