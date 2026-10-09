@@ -44,29 +44,28 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**21** repos active · **19** commits · **40** events
+**19** repos active · **17** commits · **35** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
 | [token-ledger](/nanami-0713/token-ledger) | ██████████ | 9 | 2 |
-| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ███████░░░ | 0 | 8 |
+| [dsh-vision-router](/nanami-0713/dsh-vision-router) | █████░░░░░ | 0 | 6 |
 | [Ely-GPUI-Components](/nanami-0713/Ely-GPUI-Components) | ████░░░░░░ | 0 | 5 |
 | [self-record](/nanami-0713/self-record) | ███░░░░░░░ | 1 | 2 |
 | [Ely-GPUI-Showcases](/nanami-0713/Ely-GPUI-Showcases) | ███░░░░░░░ | 0 | 4 |
 | [refined-github](/nanami-0713/refined-github) | ███░░░░░░░ | 2 | 2 |
 | [notch-island](/nanami-0713/notch-island) | ███░░░░░░░ | 1 | 2 |
-| [thoughtdag](/nanami-0713/thoughtdag) | ███░░░░░░░ | 0 | 3 |
+| [nanami-0713](/nanami-0713/nanami-0713) | ██░░░░░░░░ | 2 | 0 |
 
 <details>
-<summary>…and 13 more active repos</summary>
+<summary>…and 11 more active repos</summary>
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [nanami-0713](/nanami-0713/nanami-0713) | ██░░░░░░░░ | 2 | 0 |
 | [dsh-genui](/nanami-0713/dsh-genui) | ██░░░░░░░░ | 0 | 2 |
 | [Maccy](/nanami-0713/Maccy) | ██░░░░░░░░ | 1 | 1 |
 | [nanami-harness](/nanami-0713/nanami-harness) | ██░░░░░░░░ | 1 | 1 |
-| [dsh-usage](/nanami-0713/dsh-usage) | ██░░░░░░░░ | 2 | 0 |
+| [ElyOffice](/nanami-0713/ElyOffice) | █░░░░░░░░░ | 0 | 1 |
 | [liquid-glass](/nanami-0713/liquid-glass) | █░░░░░░░░░ | 0 | 1 |
 | [rea](/nanami-0713/rea) | █░░░░░░░░░ | 0 | 1 |
 | [moli](/nanami-0713/moli) | █░░░░░░░░░ | 0 | 1 |
@@ -74,7 +73,6 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 | [dsh-desktop](/nanami-0713/dsh-desktop) | █░░░░░░░░░ | 0 | 1 |
 | [dsh-agent-teams](/nanami-0713/dsh-agent-teams) | █░░░░░░░░░ | 0 | 1 |
 | [x_gift_bot](/nanami-0713/x_gift_bot) | █░░░░░░░░░ | 0 | 1 |
-| [dsh-web-mobile](/nanami-0713/dsh-web-mobile) | █░░░░░░░░░ | 0 | 1 |
 
 </details>
 <!-- AUTO:activity 结束 -->
