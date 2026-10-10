@@ -44,13 +44,13 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**19** repos active · **17** commits · **35** events
+**18** repos active · **17** commits · **33** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
 | [token-ledger](/nanami-0713/token-ledger) | ██████████ | 9 | 2 |
-| [dsh-vision-router](/nanami-0713/dsh-vision-router) | █████░░░░░ | 0 | 6 |
 | [Ely-GPUI-Components](/nanami-0713/Ely-GPUI-Components) | ████░░░░░░ | 0 | 5 |
+| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ████░░░░░░ | 0 | 5 |
 | [self-record](/nanami-0713/self-record) | ███░░░░░░░ | 1 | 2 |
 | [Ely-GPUI-Showcases](/nanami-0713/Ely-GPUI-Showcases) | ███░░░░░░░ | 0 | 4 |
 | [refined-github](/nanami-0713/refined-github) | ███░░░░░░░ | 2 | 2 |
@@ -58,7 +58,7 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 | [nanami-0713](/nanami-0713/nanami-0713) | ██░░░░░░░░ | 2 | 0 |
 
 <details>
-<summary>…and 11 more active repos</summary>
+<summary>…and 10 more active repos</summary>
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
@@ -72,7 +72,6 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 | [magpie](/nanami-0713/magpie) | █░░░░░░░░░ | 0 | 1 |
 | [dsh-desktop](/nanami-0713/dsh-desktop) | █░░░░░░░░░ | 0 | 1 |
 | [dsh-agent-teams](/nanami-0713/dsh-agent-teams) | █░░░░░░░░░ | 0 | 1 |
-| [x_gift_bot](/nanami-0713/x_gift_bot) | █░░░░░░░░░ | 0 | 1 |
 
 </details>
 <!-- AUTO:activity 结束 -->
