@@ -44,30 +44,29 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**18** repos active · **17** commits · **33** events
+**17** repos active · **14** commits · **35** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
 | [token-ledger](/nanami-0713/token-ledger) | ██████████ | 9 | 2 |
+| [self-record](/nanami-0713/self-record) | ███████░░░ | 1 | 6 |
 | [Ely-GPUI-Components](/nanami-0713/Ely-GPUI-Components) | ████░░░░░░ | 0 | 5 |
 | [dsh-vision-router](/nanami-0713/dsh-vision-router) | ████░░░░░░ | 0 | 5 |
-| [self-record](/nanami-0713/self-record) | ███░░░░░░░ | 1 | 2 |
 | [Ely-GPUI-Showcases](/nanami-0713/Ely-GPUI-Showcases) | ███░░░░░░░ | 0 | 4 |
 | [refined-github](/nanami-0713/refined-github) | ███░░░░░░░ | 2 | 2 |
-| [notch-island](/nanami-0713/notch-island) | ███░░░░░░░ | 1 | 2 |
-| [nanami-0713](/nanami-0713/nanami-0713) | ██░░░░░░░░ | 2 | 0 |
+| [dsh-genui](/nanami-0713/dsh-genui) | ██░░░░░░░░ | 0 | 2 |
+| [Maccy](/nanami-0713/Maccy) | ██░░░░░░░░ | 1 | 1 |
 
 <details>
-<summary>…and 10 more active repos</summary>
+<summary>…and 9 more active repos</summary>
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [dsh-genui](/nanami-0713/dsh-genui) | ██░░░░░░░░ | 0 | 2 |
-| [Maccy](/nanami-0713/Maccy) | ██░░░░░░░░ | 1 | 1 |
-| [nanami-harness](/nanami-0713/nanami-harness) | ██░░░░░░░░ | 1 | 1 |
+| [mygo](/nanami-0713/mygo) | █░░░░░░░░░ | 0 | 1 |
 | [ElyOffice](/nanami-0713/ElyOffice) | █░░░░░░░░░ | 0 | 1 |
 | [liquid-glass](/nanami-0713/liquid-glass) | █░░░░░░░░░ | 0 | 1 |
 | [rea](/nanami-0713/rea) | █░░░░░░░░░ | 0 | 1 |
+| [nanami-0713](/nanami-0713/nanami-0713) | █░░░░░░░░░ | 1 | 0 |
 | [moli](/nanami-0713/moli) | █░░░░░░░░░ | 0 | 1 |
 | [magpie](/nanami-0713/magpie) | █░░░░░░░░░ | 0 | 1 |
 | [dsh-desktop](/nanami-0713/dsh-desktop) | █░░░░░░░░░ | 0 | 1 |
