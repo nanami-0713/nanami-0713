@@ -35,7 +35,7 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 ### 📦 Recent releases
 | Date | Release | Notes |
 |---|---|---|
-| **2026-10-06** | [self-record · v0.1.0](https://github.com/nanami-0713/self-record/releases/tag/v0.1.0) | · iOS 首个版本（未签名 ipa） |
+| **2026-10-12** | [self-record · v0.2.0](https://github.com/nanami-0713/self-record/releases/tag/v0.2.0) | · 备份导入修复 + 存储加固 + 性能优化（未签名 ipa） |
 | **2026-10-05** | [token-ledger · v0.2.0](https://github.com/nanami-0713/token-ledger/releases/tag/v0.2.0) | TokenLedger 0.2.0 |
 | **2026-09-30** | [dsh-context · issue-96-screenshots](https://github.com/nanami-0713/dsh-context/releases/tag/issue-96-screenshots) | Screenshots for issue #96 (DNA + Delta combo tooltip) |
 | **2026-09-30** | [notch-island · v0.3.0](https://github.com/nanami-0713/notch-island/releases/tag/v0.3.0) | NotchIsland v0.3.0 · Agent 状态岛 |
@@ -44,33 +44,30 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**17** repos active · **14** commits · **35** events
+**14** repos active · **8** commits · **23** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [token-ledger](/nanami-0713/token-ledger) | ██████████ | 9 | 2 |
-| [self-record](/nanami-0713/self-record) | ███████░░░ | 1 | 6 |
-| [Ely-GPUI-Components](/nanami-0713/Ely-GPUI-Components) | ████░░░░░░ | 0 | 5 |
-| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ████░░░░░░ | 0 | 5 |
-| [Ely-GPUI-Showcases](/nanami-0713/Ely-GPUI-Showcases) | ███░░░░░░░ | 0 | 4 |
-| [refined-github](/nanami-0713/refined-github) | ███░░░░░░░ | 2 | 2 |
-| [dsh-genui](/nanami-0713/dsh-genui) | ██░░░░░░░░ | 0 | 2 |
-| [Maccy](/nanami-0713/Maccy) | ██░░░░░░░░ | 1 | 1 |
-
-<details>
-<summary>…and 9 more active repos</summary>
-
-| Repository | Activity | Commits | Events |
-|---|---|:-:|:-:|
+| [self-record](/nanami-0713/self-record) | ██████████ | 2 | 10 |
+| [token-ledger](/nanami-0713/token-ledger) | ████░░░░░░ | 5 | 0 |
+| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ██░░░░░░░░ | 0 | 3 |
+| [cida](/nanami-0713/cida) | █░░░░░░░░░ | 0 | 1 |
+| [guizang-ppt-skill](/nanami-0713/guizang-ppt-skill) | █░░░░░░░░░ | 0 | 1 |
 | [mygo](/nanami-0713/mygo) | █░░░░░░░░░ | 0 | 1 |
 | [ElyOffice](/nanami-0713/ElyOffice) | █░░░░░░░░░ | 0 | 1 |
 | [liquid-glass](/nanami-0713/liquid-glass) | █░░░░░░░░░ | 0 | 1 |
+
+<details>
+<summary>…and 6 more active repos</summary>
+
+| Repository | Activity | Commits | Events |
+|---|---|:-:|:-:|
 | [rea](/nanami-0713/rea) | █░░░░░░░░░ | 0 | 1 |
 | [nanami-0713](/nanami-0713/nanami-0713) | █░░░░░░░░░ | 1 | 0 |
+| [dsh-genui](/nanami-0713/dsh-genui) | █░░░░░░░░░ | 0 | 1 |
+| [Ely-GPUI-Components](/nanami-0713/Ely-GPUI-Components) | █░░░░░░░░░ | 0 | 1 |
 | [moli](/nanami-0713/moli) | █░░░░░░░░░ | 0 | 1 |
-| [magpie](/nanami-0713/magpie) | █░░░░░░░░░ | 0 | 1 |
-| [dsh-desktop](/nanami-0713/dsh-desktop) | █░░░░░░░░░ | 0 | 1 |
-| [dsh-agent-teams](/nanami-0713/dsh-agent-teams) | █░░░░░░░░░ | 0 | 1 |
+| [refined-github](/nanami-0713/refined-github) | █░░░░░░░░░ | 0 | 1 |
 
 </details>
 <!-- AUTO:activity 结束 -->
