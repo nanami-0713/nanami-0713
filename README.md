@@ -44,32 +44,17 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**14** repos active · **8** commits · **23** events
+**7** repos active · **3** commits · **15** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [self-record](/nanami-0713/self-record) | ██████████ | 2 | 10 |
-| [token-ledger](/nanami-0713/token-ledger) | ████░░░░░░ | 5 | 0 |
-| [dsh-vision-router](/nanami-0713/dsh-vision-router) | ██░░░░░░░░ | 0 | 3 |
+| [self-record](/nanami-0713/self-record) | ██████████ | 3 | 9 |
 | [cida](/nanami-0713/cida) | █░░░░░░░░░ | 0 | 1 |
 | [guizang-ppt-skill](/nanami-0713/guizang-ppt-skill) | █░░░░░░░░░ | 0 | 1 |
 | [mygo](/nanami-0713/mygo) | █░░░░░░░░░ | 0 | 1 |
 | [ElyOffice](/nanami-0713/ElyOffice) | █░░░░░░░░░ | 0 | 1 |
 | [liquid-glass](/nanami-0713/liquid-glass) | █░░░░░░░░░ | 0 | 1 |
-
-<details>
-<summary>…and 6 more active repos</summary>
-
-| Repository | Activity | Commits | Events |
-|---|---|:-:|:-:|
 | [rea](/nanami-0713/rea) | █░░░░░░░░░ | 0 | 1 |
-| [nanami-0713](/nanami-0713/nanami-0713) | █░░░░░░░░░ | 1 | 0 |
-| [dsh-genui](/nanami-0713/dsh-genui) | █░░░░░░░░░ | 0 | 1 |
-| [Ely-GPUI-Components](/nanami-0713/Ely-GPUI-Components) | █░░░░░░░░░ | 0 | 1 |
-| [moli](/nanami-0713/moli) | █░░░░░░░░░ | 0 | 1 |
-| [refined-github](/nanami-0713/refined-github) | █░░░░░░░░░ | 0 | 1 |
-
-</details>
 <!-- AUTO:activity 结束 -->
 
 <sub>This section updates daily via GitHub Actions · <a href="https://github.com/nanami-0713/nanmi-0713/blob/main/.github/workflows/update-readme.yml">Workflow Sourcecode</a></sub>
