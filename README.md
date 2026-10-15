@@ -26,7 +26,7 @@ the true cost of LLM systems ([acq-framework](/nanami-0713/acq-framework))
 <!-- AUTO:stats 开始 -->
 | Repos | Stars | Most starred |
 |:-:|:-:|:-:|
-| **41** | **16** | [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 · [token-ledger](https://github.com/nanami-0713/token-ledger) ×2 · [dsh-keep-awake](https://github.com/nanami-0713/dsh-keep-awake) ×1 |
+| **41** | **18** | [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 · [token-ledger](https://github.com/nanami-0713/token-ledger) ×3 · [dsh-keep-awake](https://github.com/nanami-0713/dsh-keep-awake) ×1 |
 
 Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 <!-- AUTO:stats 结束 -->
@@ -44,26 +44,25 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**10** repos active · **3** commits · **30** events
+**9** repos active · **3** commits · **36** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [asyncband](/nanami-0713/asyncband) | ██████████ | 1 | 11 |
-| [self-record](/nanami-0713/self-record) | ██████████ | 2 | 9 |
-| [asyncband-site](/nanami-0713/asyncband-site) | ██░░░░░░░░ | 0 | 2 |
+| [asyncband](/nanami-0713/asyncband) | ██████████ | 1 | 12 |
+| [self-record](/nanami-0713/self-record) | █████████░ | 2 | 9 |
+| [asyncband-site](/nanami-0713/asyncband-site) | ██████░░░░ | 0 | 8 |
 | [dsh-desktop](/nanami-0713/dsh-desktop) | ██░░░░░░░░ | 0 | 2 |
+| [dsh-desktop-1](/nanami-0713/dsh-desktop-1) | █░░░░░░░░░ | 0 | 1 |
 | [cida](/nanami-0713/cida) | █░░░░░░░░░ | 0 | 1 |
 | [guizang-ppt-skill](/nanami-0713/guizang-ppt-skill) | █░░░░░░░░░ | 0 | 1 |
 | [mygo](/nanami-0713/mygo) | █░░░░░░░░░ | 0 | 1 |
-| [ElyOffice](/nanami-0713/ElyOffice) | █░░░░░░░░░ | 0 | 1 |
 
 <details>
-<summary>…and 2 more active repos</summary>
+<summary>…and 1 more active repos</summary>
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [liquid-glass](/nanami-0713/liquid-glass) | █░░░░░░░░░ | 0 | 1 |
-| [rea](/nanami-0713/rea) | █░░░░░░░░░ | 0 | 1 |
+| [ElyOffice](/nanami-0713/ElyOffice) | █░░░░░░░░░ | 0 | 1 |
 
 </details>
 <!-- AUTO:activity 结束 -->
