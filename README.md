@@ -44,27 +44,18 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**9** repos active · **3** commits · **36** events
+**8** repos active · **7** commits · **39** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [asyncband](/nanami-0713/asyncband) | ██████████ | 1 | 12 |
-| [self-record](/nanami-0713/self-record) | █████████░ | 2 | 9 |
-| [asyncband-site](/nanami-0713/asyncband-site) | ██████░░░░ | 0 | 8 |
-| [dsh-desktop](/nanami-0713/dsh-desktop) | ██░░░░░░░░ | 0 | 2 |
+| [asyncband-site](/nanami-0713/asyncband-site) | ██████████ | 4 | 12 |
+| [asyncband](/nanami-0713/asyncband) | ████████░░ | 1 | 12 |
+| [self-record](/nanami-0713/self-record) | ████████░░ | 2 | 9 |
+| [dsh-desktop](/nanami-0713/dsh-desktop) | █░░░░░░░░░ | 0 | 2 |
 | [dsh-desktop-1](/nanami-0713/dsh-desktop-1) | █░░░░░░░░░ | 0 | 1 |
 | [cida](/nanami-0713/cida) | █░░░░░░░░░ | 0 | 1 |
 | [guizang-ppt-skill](/nanami-0713/guizang-ppt-skill) | █░░░░░░░░░ | 0 | 1 |
 | [mygo](/nanami-0713/mygo) | █░░░░░░░░░ | 0 | 1 |
-
-<details>
-<summary>…and 1 more active repos</summary>
-
-| Repository | Activity | Commits | Events |
-|---|---|:-:|:-:|
-| [ElyOffice](/nanami-0713/ElyOffice) | █░░░░░░░░░ | 0 | 1 |
-
-</details>
 <!-- AUTO:activity 结束 -->
 
 <sub>This section updates daily via GitHub Actions · <a href="https://github.com/nanami-0713/nanmi-0713/blob/main/.github/workflows/update-readme.yml">Workflow Sourcecode</a></sub>
