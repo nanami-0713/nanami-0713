@@ -44,27 +44,18 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**9** repos active · **6** commits · **36** events
+**8** repos active · **6** commits · **31** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
 | [asyncband-site](/nanami-0713/asyncband-site) | ██████████ | 4 | 12 |
 | [asyncband](/nanami-0713/asyncband) | ████████░░ | 1 | 12 |
-| [self-record](/nanami-0713/self-record) | ████░░░░░░ | 1 | 5 |
+| [nanami-0713](/nanami-0713/nanami-0713) | █░░░░░░░░░ | 1 | 1 |
 | [dsh-desktop](/nanami-0713/dsh-desktop) | █░░░░░░░░░ | 0 | 2 |
+| [ZCode](/nanami-0713/ZCode) | █░░░░░░░░░ | 0 | 1 |
 | [orca](/nanami-0713/orca) | █░░░░░░░░░ | 0 | 1 |
 | [layerfs](/nanami-0713/layerfs) | █░░░░░░░░░ | 0 | 1 |
 | [dsh-desktop-1](/nanami-0713/dsh-desktop-1) | █░░░░░░░░░ | 0 | 1 |
-| [cida](/nanami-0713/cida) | █░░░░░░░░░ | 0 | 1 |
-
-<details>
-<summary>…and 1 more active repos</summary>
-
-| Repository | Activity | Commits | Events |
-|---|---|:-:|:-:|
-| [guizang-ppt-skill](/nanami-0713/guizang-ppt-skill) | █░░░░░░░░░ | 0 | 1 |
-
-</details>
 <!-- AUTO:activity 结束 -->
 
 <sub>This section updates daily via GitHub Actions · <a href="https://github.com/nanami-0713/nanmi-0713/blob/main/.github/workflows/update-readme.yml">Workflow Sourcecode</a></sub>
