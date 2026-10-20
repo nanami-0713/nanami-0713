@@ -26,7 +26,7 @@ the true cost of LLM systems ([acq-framework](/nanami-0713/acq-framework))
 <!-- AUTO:stats 开始 -->
 | Repos | Stars | Most starred |
 |:-:|:-:|:-:|
-| **41** | **18** | [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 · [token-ledger](https://github.com/nanami-0713/token-ledger) ×3 · [dsh-keep-awake](https://github.com/nanami-0713/dsh-keep-awake) ×1 |
+| **41** | **17** | [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 · [token-ledger](https://github.com/nanami-0713/token-ledger) ×3 · [dsh-keep-awake](https://github.com/nanami-0713/dsh-keep-awake) ×1 |
 
 Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 <!-- AUTO:stats 结束 -->
@@ -44,13 +44,13 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**8** repos active · **6** commits · **31** events
+**8** repos active · **8** commits · **33** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
 | [asyncband-site](/nanami-0713/asyncband-site) | ██████████ | 4 | 12 |
 | [asyncband](/nanami-0713/asyncband) | ████████░░ | 1 | 12 |
-| [nanami-0713](/nanami-0713/nanami-0713) | █░░░░░░░░░ | 1 | 1 |
+| [nanami-0713](/nanami-0713/nanami-0713) | ████░░░░░░ | 3 | 3 |
 | [dsh-desktop](/nanami-0713/dsh-desktop) | █░░░░░░░░░ | 0 | 2 |
 | [ZCode](/nanami-0713/ZCode) | █░░░░░░░░░ | 0 | 1 |
 | [orca](/nanami-0713/orca) | █░░░░░░░░░ | 0 | 1 |
