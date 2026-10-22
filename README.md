@@ -44,17 +44,17 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**7** repos active · **7** commits · **17** events
+**7** repos active · **3** commits · **10** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [asyncband-site](/nanami-0713/asyncband-site) | ██████████ | 4 | 9 |
-| [nanami-0713](/nanami-0713/nanami-0713) | █████░░░░░ | 3 | 3 |
-| [dsh-anchored-standard](/nanami-0713/dsh-anchored-standard) | █░░░░░░░░░ | 0 | 1 |
-| [ELYTerminal](/nanami-0713/ELYTerminal) | █░░░░░░░░░ | 0 | 1 |
-| [ZCode](/nanami-0713/ZCode) | █░░░░░░░░░ | 0 | 1 |
-| [orca](/nanami-0713/orca) | █░░░░░░░░░ | 0 | 1 |
-| [layerfs](/nanami-0713/layerfs) | █░░░░░░░░░ | 0 | 1 |
+| [nanami-0713](/nanami-0713/nanami-0713) | ██████████ | 3 | 3 |
+| [asyncband-site](/nanami-0713/asyncband-site) | ███░░░░░░░ | 0 | 2 |
+| [dsh-anchored-standard](/nanami-0713/dsh-anchored-standard) | ██░░░░░░░░ | 0 | 1 |
+| [ELYTerminal](/nanami-0713/ELYTerminal) | ██░░░░░░░░ | 0 | 1 |
+| [ZCode](/nanami-0713/ZCode) | ██░░░░░░░░ | 0 | 1 |
+| [orca](/nanami-0713/orca) | ██░░░░░░░░ | 0 | 1 |
+| [layerfs](/nanami-0713/layerfs) | ██░░░░░░░░ | 0 | 1 |
 <!-- AUTO:activity 结束 -->
 
 <sub>This section updates daily via GitHub Actions · <a href="https://github.com/nanami-0713/nanmi-0713/blob/main/.github/workflows/update-readme.yml">Workflow Sourcecode</a></sub>
