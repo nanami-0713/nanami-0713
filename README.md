@@ -44,12 +44,11 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**7** repos active · **3** commits · **10** events
+**6** repos active · **3** commits · **8** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
 | [nanami-0713](/nanami-0713/nanami-0713) | ██████████ | 3 | 3 |
-| [asyncband-site](/nanami-0713/asyncband-site) | ███░░░░░░░ | 0 | 2 |
 | [dsh-anchored-standard](/nanami-0713/dsh-anchored-standard) | ██░░░░░░░░ | 0 | 1 |
 | [ELYTerminal](/nanami-0713/ELYTerminal) | ██░░░░░░░░ | 0 | 1 |
 | [ZCode](/nanami-0713/ZCode) | ██░░░░░░░░ | 0 | 1 |
