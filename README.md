@@ -26,7 +26,7 @@ the true cost of LLM systems ([acq-framework](/nanami-0713/acq-framework))
 <!-- AUTO:stats 开始 -->
 | Repos | Stars | Most starred |
 |:-:|:-:|:-:|
-| **42** | **45** | [alma-android](https://github.com/nanami-0713/alma-android) ×28 · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 · [token-ledger](https://github.com/nanami-0713/token-ledger) ×3 |
+| **42** | **48** | [alma-android](https://github.com/nanami-0713/alma-android) ×31 · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 · [token-ledger](https://github.com/nanami-0713/token-ledger) ×3 |
 
 Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 <!-- AUTO:stats 结束 -->
@@ -35,7 +35,7 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 ### 📦 Recent releases
 | Date | Release | Notes |
 |---|---|---|
-| **2026-10-29** | [alma-android · v0.4.213-11](https://github.com/nanami-0713/alma-android/releases/tag/v0.4.213-11) | Alma Android v0.4.213-11 |
+| **2026-10-30** | [alma-android · v0.4.213-14](https://github.com/nanami-0713/alma-android/releases/tag/v0.4.213-14) | Alma Android v0.4.213-14 |
 | **2026-10-12** | [self-record · v0.2.0](https://github.com/nanami-0713/self-record/releases/tag/v0.2.0) | · 备份导入修复 + 存储加固 + 性能优化（未签名 ipa） |
 | **2026-10-05** | [token-ledger · v0.2.0](https://github.com/nanami-0713/token-ledger/releases/tag/v0.2.0) | TokenLedger 0.2.0 |
 | **2026-09-30** | [dsh-context · issue-96-screenshots](https://github.com/nanami-0713/dsh-context/releases/tag/issue-96-screenshots) | Screenshots for issue #96 (DNA + Delta combo tooltip) |
@@ -44,11 +44,11 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**4** repos active · **6** commits · **17** events
+**4** repos active · **14** commits · **25** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [alma-android](/nanami-0713/alma-android) | ██████████ | 5 | 11 |
+| [alma-android](/nanami-0713/alma-android) | ██████████ | 13 | 19 |
 | [asyncband](/nanami-0713/asyncband) | █░░░░░░░░░ | 0 | 3 |
 | [asyncband-site](/nanami-0713/asyncband-site) | █░░░░░░░░░ | 1 | 2 |
 | [layerfs-connect](/nanami-0713/layerfs-connect) | █░░░░░░░░░ | 0 | 1 |
