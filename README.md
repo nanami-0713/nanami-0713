@@ -26,7 +26,7 @@ the true cost of LLM systems ([acq-framework](/nanami-0713/acq-framework))
 <!-- AUTO:stats 开始 -->
 | Repos | Stars | Most starred |
 |:-:|:-:|:-:|
-| **43** | **225** | [relay-kit](https://github.com/nanami-0713/relay-kit) ×173 · [alma-android](https://github.com/nanami-0713/alma-android) ×35 · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 |
+| **43** | **269** | [relay-kit](https://github.com/nanami-0713/relay-kit) ×192 · [alma-android](https://github.com/nanami-0713/alma-android) ×59 · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 |
 
 Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 <!-- AUTO:stats 结束 -->
@@ -35,7 +35,7 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 ### 📦 Recent releases
 | Date | Release | Notes |
 |---|---|---|
-| **2026-11-01** | [alma-android · v0.4.213-21](https://github.com/nanami-0713/alma-android/releases/tag/v0.4.213-21) | Alma Android v0.4.213-21 |
+| **2026-11-02** | [alma-android · v0.4.378-35](https://github.com/nanami-0713/alma-android/releases/tag/v0.4.378-35) | Alma Android v0.4.378-35 |
 | **2026-10-12** | [self-record · v0.2.0](https://github.com/nanami-0713/self-record/releases/tag/v0.2.0) | · 备份导入修复 + 存储加固 + 性能优化（未签名 ipa） |
 | **2026-10-05** | [token-ledger · v0.2.0](https://github.com/nanami-0713/token-ledger/releases/tag/v0.2.0) | TokenLedger 0.2.0 |
 | **2026-09-30** | [dsh-context · issue-96-screenshots](https://github.com/nanami-0713/dsh-context/releases/tag/issue-96-screenshots) | Screenshots for issue #96 (DNA + Delta combo tooltip) |
@@ -44,12 +44,12 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**4** repos active · **29** commits · **30** events
+**4** repos active · **38** commits · **44** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [alma-android](/nanami-0713/alma-android) | ██████████ | 29 | 26 |
-| [relay-kit](/nanami-0713/relay-kit) | █░░░░░░░░░ | 0 | 2 |
+| [alma-android](/nanami-0713/alma-android) | ██████████ | 35 | 40 |
+| [relay-kit](/nanami-0713/relay-kit) | █░░░░░░░░░ | 3 | 2 |
 | [alma-relay](/nanami-0713/alma-relay) | █░░░░░░░░░ | 0 | 1 |
 | [layerfs-connect](/nanami-0713/layerfs-connect) | █░░░░░░░░░ | 0 | 1 |
 <!-- AUTO:activity 结束 -->
