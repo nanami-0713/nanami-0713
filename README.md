@@ -26,7 +26,7 @@ the true cost of LLM systems ([acq-framework](/nanami-0713/acq-framework))
 <!-- AUTO:stats 开始 -->
 | Repos | Stars | Most starred |
 |:-:|:-:|:-:|
-| **43** | **269** | [relay-kit](https://github.com/nanami-0713/relay-kit) ×192 · [alma-android](https://github.com/nanami-0713/alma-android) ×59 · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 |
+| **43** | **273** | [relay-kit](https://github.com/nanami-0713/relay-kit) ×192 · [alma-android](https://github.com/nanami-0713/alma-android) ×62 · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 |
 
 Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 <!-- AUTO:stats 结束 -->
@@ -44,12 +44,13 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**4** repos active · **38** commits · **44** events
+**5** repos active · **40** commits · **45** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [alma-android](/nanami-0713/alma-android) | ██████████ | 35 | 40 |
+| [alma-android](/nanami-0713/alma-android) | ██████████ | 37 | 40 |
 | [relay-kit](/nanami-0713/relay-kit) | █░░░░░░░░░ | 3 | 2 |
+| [asyncband-site](/nanami-0713/asyncband-site) | █░░░░░░░░░ | 0 | 1 |
 | [alma-relay](/nanami-0713/alma-relay) | █░░░░░░░░░ | 0 | 1 |
 | [layerfs-connect](/nanami-0713/layerfs-connect) | █░░░░░░░░░ | 0 | 1 |
 <!-- AUTO:activity 结束 -->
