@@ -44,11 +44,11 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**4** repos active · **44** commits · **41** events
+**4** repos active · **30** commits · **33** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [alma-android](/nanami-0713/alma-android) | ██████████ | 41 | 37 |
+| [alma-android](/nanami-0713/alma-android) | ██████████ | 27 | 29 |
 | [relay-kit](/nanami-0713/relay-kit) | █░░░░░░░░░ | 3 | 2 |
 | [asyncband-site](/nanami-0713/asyncband-site) | █░░░░░░░░░ | 0 | 1 |
 | [alma-relay](/nanami-0713/alma-relay) | █░░░░░░░░░ | 0 | 1 |
