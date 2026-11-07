@@ -44,14 +44,13 @@ Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
 
 <!-- AUTO:activity 开始 -->
 ### 🛰 Last 7 days
-**4** repos active · **24** commits · **25** events
+**3** repos active · **16** commits · **17** events
 
 | Repository | Activity | Commits | Events |
 |---|---|:-:|:-:|
-| [alma-android](/nanami-0713/alma-android) | ██████████ | 21 | 22 |
-| [relay-kit](/nanami-0713/relay-kit) | █░░░░░░░░░ | 3 | 1 |
+| [alma-android](/nanami-0713/alma-android) | ██████████ | 15 | 16 |
 | [asyncband-site](/nanami-0713/asyncband-site) | █░░░░░░░░░ | 0 | 1 |
-| [alma-relay](/nanami-0713/alma-relay) | █░░░░░░░░░ | 0 | 1 |
+| [relay-kit](/nanami-0713/relay-kit) | █░░░░░░░░░ | 1 | 0 |
 <!-- AUTO:activity 结束 -->
 
 <sub>This section updates daily via GitHub Actions · <a href="https://github.com/nanami-0713/nanmi-0713/blob/main/.github/workflows/update-readme.yml">Workflow Sourcecode</a></sub>
