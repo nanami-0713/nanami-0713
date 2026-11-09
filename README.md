@@ -1,64 +1,43 @@
-# Hello, I'm Nanami
-
-**Agent tooling & judgment engineering · AI PM (HZ)**
-
-## Building
-
-- **[nanami-harness](/nanami-0713/nanami-harness)** — a personal coding agent harness, composed
-  as libraries over pi-agent-core (no fork): a multi-provider model catalog with a management
-  panel, plugins & MCP config files, Codex-style computer use, image input, an idle watchdog,
-  session forking, and a self-healing Web GUI / PWA
-- **[jev-resume-screening](/nanami-0713/jev-resume-screening)** — an LLM-as-Judge resume
-  screening system: criteria iterated through three generations to a sealed v3, a
-  positive/negative/trap-sample calibration matrix, and a zero-dependency web workbench
-- **The DSH plugin ecosystem** — [dsh-jev-decide](/nanami-0713/dsh-jev-decide) (wires a TypeSafe
-  decision model into the agent loop), [dsh-usage](/nanami-0713/dsh-usage) (per-request,
-  model-by-peak/off-peak billing badges with a global usage dashboard), plus dsh-notifier /
-  dsh-quota-visor / dsh-turn-jumper
-
-## What I'm up to
-
-Building a personal coding agent · Studying agent-to-agent (A2A) orchestration · Quantifying
-the true cost of LLM systems ([acq-framework](/nanami-0713/acq-framework))
-
-## Live
+<p align="center">
+  <img width="880" src="./screen.svg" alt="像素 CRT 屏：nanami 的头像与档案 — NAME NANAMI · BORN 2003 · LANG ZH·EN·TS·RUST · OS MACOS·ANDROID" />
+</p>
 
 <!-- AUTO:stats 开始 -->
-| Repos | Stars | Most starred |
-|:-:|:-:|:-:|
-| **43** | **273** | [relay-kit](https://github.com/nanami-0713/relay-kit) ×195 · [alma-android](https://github.com/nanami-0713/alma-android) ×59 · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 |
+```text
+▛▀▀ SYSTEM ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▜
+```
 
-Languages: TypeScript · JavaScript · Swift · Python · Dart · Kotlin
+| UNITS | STARS | MAIN GEAR |
+|:-:|:-:|:--|
+| **43** | **274** | [relay-kit](https://github.com/nanami-0713/relay-kit) ×196 · [alma-android](https://github.com/nanami-0713/alma-android) ×59 · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 |
+
+<sub>LANGS · TypeScript · JavaScript · Swift · Python · Dart · Kotlin</sub>
 <!-- AUTO:stats 结束 -->
 
 <!-- AUTO:releases 开始 -->
-### 📦 Recent releases
-| Date | Release | Notes |
-|---|---|---|
-| **2026-11-02** | [alma-android · v0.4.378-35](https://github.com/nanami-0713/alma-android/releases/tag/v0.4.378-35) | Alma Android v0.4.378-35 |
-| **2026-10-12** | [self-record · v0.2.0](https://github.com/nanami-0713/self-record/releases/tag/v0.2.0) | · 备份导入修复 + 存储加固 + 性能优化（未签名 ipa） |
-| **2026-10-05** | [token-ledger · v0.2.0](https://github.com/nanami-0713/token-ledger/releases/tag/v0.2.0) | TokenLedger 0.2.0 |
-| **2026-09-30** | [dsh-context · issue-96-screenshots](https://github.com/nanami-0713/dsh-context/releases/tag/issue-96-screenshots) | Screenshots for issue #96 (DNA + Delta combo tooltip) |
-| **2026-09-30** | [notch-island · v0.3.0](https://github.com/nanami-0713/notch-island/releases/tag/v0.3.0) | NotchIsland v0.3.0 · Agent 状态岛 |
+```text
+▛▀▀ CHANGELOG ▀▀▀▀▀▀▀▀▀▀▀▀▜
+```
+
+| PATCH | DATE | MODULE |
+|:--|:-:|:--|
+| [preview-assets](https://github.com/nanami-0713/asyncband-site/releases/tag/preview-assets) | 2026-11-09 | [asyncband-site](/nanami-0713/asyncband-site) |
+| [v0.4.378-35](https://github.com/nanami-0713/alma-android/releases/tag/v0.4.378-35) | 2026-11-02 | [alma-android](/nanami-0713/alma-android) |
+| [v0.2.0](https://github.com/nanami-0713/self-record/releases/tag/v0.2.0) | 2026-10-12 | [self-record](/nanami-0713/self-record) |
+| [v0.2.0](https://github.com/nanami-0713/token-ledger/releases/tag/v0.2.0) | 2026-10-05 | [token-ledger](/nanami-0713/token-ledger) |
 <!-- AUTO:releases 结束 -->
 
 <!-- AUTO:activity 开始 -->
-### 🛰 Last 7 days
-**2** repos active · **14** commits · **16** events
+```text
+▛▀▀ ACTIVITY·7D ▀▀▀▀▀▀▀▀▜
+```
 
-| Repository | Activity | Commits | Events |
-|---|---|:-:|:-:|
-| [alma-android](/nanami-0713/alma-android) | ██████████ | 14 | 15 |
-| [asyncband-site](/nanami-0713/asyncband-site) | █░░░░░░░░░ | 0 | 1 |
+<sub>4 MODULES ONLINE · 10 COMMITS · 18 EVENTS</sub>
+
+| MODULE | POWER | CMT | EVT |
+|:--|:--|:-:|:-:|
+| [alma-android](/nanami-0713/alma-android) | `▓▓▓▓▓▓▓▓▓▓` | 10 | 10 |
+| [asyncband-site](/nanami-0713/asyncband-site) | `▓▓░░░░░░░░` | 0 | 4 |
+| [asyncband](/nanami-0713/asyncband) | `▓░░░░░░░░░` | 0 | 3 |
+| [mygo-music](/nanami-0713/mygo-music) | `▓░░░░░░░░░` | 0 | 1 |
 <!-- AUTO:activity 结束 -->
-
-<sub>This section updates daily via GitHub Actions · <a href="https://github.com/nanami-0713/nanmi-0713/blob/main/.github/workflows/update-readme.yml">Workflow Sourcecode</a></sub>
-
-## Beyond Tooling
-
-- [notch-island](/nanami-0713/notch-island) —— turns the MacBook notch into an iPhone-style Dynamic Island
-- [lifttime](/nanami-0713/lifttime) —— a zero-dependency workout & time-tracking PWA
-
-## Say Hi
-
-2093194326@qq.com/gymlinzhu@gmail.com —— Feel free to chat with me.

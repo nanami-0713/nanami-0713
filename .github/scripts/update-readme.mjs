@@ -1,5 +1,5 @@
 // 活文档生成器：抓取公开 GitHub 数据，注入 README 的 AUTO 标记区。
-// 纪律：单块失败保留旧内容（宁可陈旧，不可洗白）；无变化不写文件。
+// 调性：像素 CRT —— ▛▀▀ banner + ▓░ 液晶条。数据纪律不变：单块失败保留旧内容，无变化不写文件。
 import { readFile, writeFile } from "node:fs/promises";
 
 const OWNER = "nanami-0713";
@@ -36,9 +36,12 @@ async function block(name, gen) {
   }
 }
 
+// 像素 banner：▛▀▀ TITLE ▀▀…▜
+const banner = (title) => "```text\n▛▀▀ " + title + " " + "▀".repeat(Math.max(2, 30 - title.length * 2)) + "▜\n```";
+
 const md = await readFile("README.md", "utf8");
 
-// ── 块 1：Overview（迷你表格 + 语言行）────────────────────────
+// ── 块 1：SYSTEM ──────────────────────────────────────────────
 const stats = await block("stats", async () => {
   const repos = await gh(`/users/${OWNER}/repos?per_page=100`);
   const stars = repos.reduce((s, r) => s + r.stargazers_count, 0);
@@ -51,46 +54,39 @@ const stats = await block("stats", async () => {
   for (const r of repos) if (r.language) langs[r.language] = (langs[r.language] ?? 0) + 1;
   const langStr = Object.entries(langs).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([l]) => l).join(" · ");
   return [
-    "| Repos | Stars | Most starred |",
-    "|:-:|:-:|:-:|",
+    banner("SYSTEM"),
+    "",
+    `| UNITS | STARS | MAIN GEAR |`,
+    `|:-:|:-:|:--|`,
     `| **${repos.length}** | **${stars}** | ${top.length ? top.join(" · ") : "—"} |`,
     "",
-    `Languages: ${langStr}`,
+    `<sub>LANGS · ${langStr}</sub>`,
   ].join("\n");
 });
 
-// ── 块 2：Recent releases（日期表）────────────────────────────
+// ── 块 2：CHANGELOG（最近发版，游戏补丁日志风）─────────────────
 const releases = await block("releases", async () => {
   const repos = await gh(`/users/${OWNER}/repos?per_page=100&sort=updated`);
   const out = [];
   for (const r of repos) {
     try {
       const rel = await gh(`/repos/${OWNER}/${r.name}/releases/latest`);
-      let note = esc(rel.name);
-      // 去掉与 repo·tag 重复的前缀，表格里不重复占宽
-      try {
-        note = note
-          .replace(new RegExp(`^${r.name}\\s*`, "i"), "")
-          .replace(new RegExp(`^${rel.tag_name}\\s*[—–-]*\\s*`, "i"), "")
-          .replace(/^[—–-]+\s*/, "");
-      } catch { /* 正则元字符时保留原文 */ }
-      out.push({ repo: r.name, tag: rel.tag_name, note, url: rel.html_url, date: fmtDate(rel.published_at) });
+      out.push({ repo: r.name, tag: rel.tag_name, url: rel.html_url, date: fmtDate(rel.published_at) });
     } catch { /* 404 = 无 release，正常 */ }
   }
   out.sort((a, b) => (a.date < b.date ? 1 : -1));
-  const rows = out.slice(0, 5).map(x =>
-    `| **${x.date}** | [${x.repo} · ${x.tag}](${x.url}) | ${x.note || "—"} |`);
+  const rows = out.slice(0, 4).map(x =>
+    `| [${x.tag}](${x.url}) | ${x.date} | [${x.repo}](/${OWNER}/${x.repo}) |`);
   return [
-    "### 📦 Recent releases",
-    ...(rows.length ? [
-      "| Date | Release | Notes |",
-      "|---|---|---|",
-      ...rows,
-    ] : ["(no recent releases)"]),
+    banner("CHANGELOG"),
+    "",
+    "| PATCH | DATE | MODULE |",
+    "|:--|:-:|:--|",
+    ...(rows.length ? rows : ["| — | — | no patches shipped |"]),
   ].join("\n");
 });
 
-// ── 块 3：Last 7 days（横条图 + 折叠长尾）─────────────────────
+// ── 块 3：ACTIVITY·7D（▓░ 液晶条）─────────────────────────────
 const activity = await block("activity", async () => {
   const since = new Date(Date.now() - 7 * 864e5).toISOString();
   const events = [];
@@ -111,30 +107,31 @@ const activity = await block("activity", async () => {
     .map(([repo, b]) => ({ repo, b, score: b.commits + b.release * 2 + b.other }))
     .sort((a, b) => b.score - a.score);
   if (!rows.length) {
-    return ["### 🛰 Last 7 days", "(quiet this week)"].join("\n");
+    return [banner("ACTIVITY·7D"), "", "`(signal lost — quiet week)`"].join("\n");
   }
   const max = Math.max(...rows.map(r => r.score), 1);
-  const bar = (s) => { const n = Math.min(10, Math.max(1, Math.round((s / max) * 10))); return "█".repeat(n) + "░".repeat(10 - n); };
+  const bar = (s) => { const n = Math.min(10, Math.max(1, Math.round((s / max) * 10))); return "▓".repeat(n) + "░".repeat(10 - n); };
   const link = (repo) => `[${repo}](/${OWNER}/${repo})`;
   const totals = rows.reduce((t, r) => ({ c: t.c + r.b.commits, e: t.e + r.b.release + r.b.other }), { c: 0, e: 0 });
-  const row = (r) => `| ${link(r.repo)} | ${bar(r.score)} | ${r.b.commits} | ${r.b.release + r.b.other} |`;
+  const row = (r) => `| ${link(r.repo)} | \`${bar(r.score)}\` | ${r.b.commits} | ${r.b.release + r.b.other} |`;
   const table = (items) => [
-    "| Repository | Activity | Commits | Events |",
-    "|---|---|:-:|:-:|",
+    "| MODULE | POWER | CMT | EVT |",
+    "|:--|:--|:-:|:-:|",
     ...items.map(row),
   ];
   const head = [
-    "### 🛰 Last 7 days",
-    `**${rows.length}** repos active · **${totals.c}** commits · **${totals.e}** events`,
+    banner("ACTIVITY·7D"),
     "",
-    ...table(rows.slice(0, 8)),
+    `<sub>${rows.length} MODULES ONLINE · ${totals.c} COMMITS · ${totals.e} EVENTS</sub>`,
+    "",
+    ...table(rows.slice(0, 6)),
   ];
-  const rest = rows.slice(8);
+  const rest = rows.slice(6);
   if (rest.length) {
     head.push(
       "",
       "<details>",
-      `<summary>…and ${rest.length} more active repos</summary>`,
+      `<summary>▚ ${rest.length} more modules on standby</summary>`,
       "",
       ...table(rest),
       "",
