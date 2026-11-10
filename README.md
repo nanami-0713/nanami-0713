@@ -11,7 +11,7 @@
 |:-:|:-:|:--|
 | **43** | **274** | [relay-kit](https://github.com/nanami-0713/relay-kit) ×196 · [alma-android](https://github.com/nanami-0713/alma-android) ×59 · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 |
 
-<sub>LANGS · TypeScript · JavaScript · Swift · Python · Dart · Kotlin</sub>
+<sub>LANGS · TypeScript · JavaScript · Python · Swift · Dart · Kotlin</sub>
 <!-- AUTO:stats 结束 -->
 
 <!-- AUTO:releases 开始 -->
@@ -21,10 +21,10 @@
 
 | PATCH | DATE | MODULE |
 |:--|:-:|:--|
-| [preview-assets](https://github.com/nanami-0713/asyncband-site/releases/tag/preview-assets) | 2026-11-09 | [asyncband-site](/nanami-0713/asyncband-site) |
 | [v0.4.378-35](https://github.com/nanami-0713/alma-android/releases/tag/v0.4.378-35) | 2026-11-02 | [alma-android](/nanami-0713/alma-android) |
 | [v0.2.0](https://github.com/nanami-0713/self-record/releases/tag/v0.2.0) | 2026-10-12 | [self-record](/nanami-0713/self-record) |
 | [v0.2.0](https://github.com/nanami-0713/token-ledger/releases/tag/v0.2.0) | 2026-10-05 | [token-ledger](/nanami-0713/token-ledger) |
+| [issue-96-screenshots](https://github.com/nanami-0713/dsh-context/releases/tag/issue-96-screenshots) | 2026-09-30 | [dsh-context](/nanami-0713/dsh-context) |
 <!-- AUTO:releases 结束 -->
 
 <!-- AUTO:activity 开始 -->
@@ -32,12 +32,11 @@
 ▛▀▀ ACTIVITY·7D ▀▀▀▀▀▀▀▀▜
 ```
 
-<sub>4 MODULES ONLINE · 10 COMMITS · 18 EVENTS</sub>
+<sub>3 MODULES ONLINE · 3 COMMITS · 16 EVENTS</sub>
 
 | MODULE | POWER | CMT | EVT |
 |:--|:--|:-:|:-:|
-| [alma-android](/nanami-0713/alma-android) | `▓▓▓▓▓▓▓▓▓▓` | 10 | 10 |
-| [asyncband-site](/nanami-0713/asyncband-site) | `▓▓░░░░░░░░` | 0 | 4 |
-| [asyncband](/nanami-0713/asyncband) | `▓░░░░░░░░░` | 0 | 3 |
+| [asyncband](/nanami-0713/asyncband) | `▓▓▓▓▓▓▓▓▓▓` | 1 | 11 |
+| [asyncband-site](/nanami-0713/asyncband-site) | `▓▓▓▓▓░░░░░` | 2 | 4 |
 | [mygo-music](/nanami-0713/mygo-music) | `▓░░░░░░░░░` | 0 | 1 |
 <!-- AUTO:activity 结束 -->
