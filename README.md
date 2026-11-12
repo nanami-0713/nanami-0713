@@ -32,12 +32,12 @@
 ▛▀▀ ACTIVITY·7D ▀▀▀▀▀▀▀▀▜
 ```
 
-<sub>5 MODULES ONLINE · 4 COMMITS · 22 EVENTS</sub>
+<sub>5 MODULES ONLINE · 4 COMMITS · 24 EVENTS</sub>
 
 | MODULE | POWER | CMT | EVT |
 |:--|:--|:-:|:-:|
 | [asyncband](/nanami-0713/asyncband) | `▓▓▓▓▓▓▓▓▓▓` | 1 | 15 |
-| [asyncband-site](/nanami-0713/asyncband-site) | `▓▓▓░░░░░░░` | 2 | 3 |
+| [asyncband-site](/nanami-0713/asyncband-site) | `▓▓▓▓░░░░░░` | 2 | 5 |
 | [layerfs](/nanami-0713/layerfs) | `▓▓░░░░░░░░` | 0 | 3 |
 | [nanami-0713](/nanami-0713/nanami-0713) | `▓░░░░░░░░░` | 1 | 0 |
 | [mygo-music](/nanami-0713/mygo-music) | `▓░░░░░░░░░` | 0 | 1 |
