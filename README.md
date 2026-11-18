@@ -9,7 +9,7 @@
 
 | UNITS | STARS | MAIN GEAR |
 |:-:|:-:|:--|
-| **43** | **275** | [relay-kit](https://github.com/nanami-0713/relay-kit) ×199 · [alma-android](https://github.com/nanami-0713/alma-android) ×57 · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 |
+| **43** | **276** | [relay-kit](https://github.com/nanami-0713/relay-kit) ×200 · [alma-android](https://github.com/nanami-0713/alma-android) ×57 · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) ×4 |
 
 <sub>LANGS · TypeScript · JavaScript · Python · Swift · Dart · Kotlin</sub>
 <!-- AUTO:stats 结束 -->
@@ -32,13 +32,13 @@
 ▛▀▀ ACTIVITY·7D ▀▀▀▀▀▀▀▀▜
 ```
 
-<sub>5 MODULES ONLINE · 0 COMMITS · 18 EVENTS</sub>
+<sub>5 MODULES ONLINE · 0 COMMITS · 12 EVENTS</sub>
 
 | MODULE | POWER | CMT | EVT |
 |:--|:--|:-:|:-:|
 | [asyncband-site](/nanami-0713/asyncband-site) | `▓▓▓▓▓▓▓▓▓▓` | 0 | 5 |
-| [asyncband](/nanami-0713/asyncband) | `▓▓▓▓▓▓▓▓▓▓` | 0 | 5 |
 | [dsh-layerfs](/nanami-0713/dsh-layerfs) | `▓▓▓▓▓▓▓▓░░` | 0 | 4 |
-| [layerfs](/nanami-0713/layerfs) | `▓▓▓▓▓▓░░░░` | 0 | 3 |
+| [chat-demo](/nanami-0713/chat-demo) | `▓▓░░░░░░░░` | 0 | 1 |
 | [opendal](/nanami-0713/opendal) | `▓▓░░░░░░░░` | 0 | 1 |
+| [asyncband](/nanami-0713/asyncband) | `▓▓░░░░░░░░` | 0 | 1 |
 <!-- AUTO:activity 结束 -->
