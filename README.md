@@ -32,14 +32,14 @@
 ▛▀▀ ACTIVITY·7D ▀▀▀▀▀▀▀▀▜
 ```
 
-<sub>6 MODULES ONLINE · 0 COMMITS · 13 EVENTS</sub>
+<sub>6 MODULES ONLINE · 0 COMMITS · 9 EVENTS</sub>
 
 | MODULE | POWER | CMT | EVT |
 |:--|:--|:-:|:-:|
-| [asyncband-site](/nanami-0713/asyncband-site) | `▓▓▓▓▓▓▓▓▓▓` | 0 | 5 |
-| [dsh-layerfs](/nanami-0713/dsh-layerfs) | `▓▓▓▓▓▓▓▓░░` | 0 | 4 |
-| [ASu-skills](/nanami-0713/ASu-skills) | `▓▓░░░░░░░░` | 0 | 1 |
-| [chat-demo](/nanami-0713/chat-demo) | `▓▓░░░░░░░░` | 0 | 1 |
-| [opendal](/nanami-0713/opendal) | `▓▓░░░░░░░░` | 0 | 1 |
-| [asyncband](/nanami-0713/asyncband) | `▓▓░░░░░░░░` | 0 | 1 |
+| [dsh-layerfs](/nanami-0713/dsh-layerfs) | `▓▓▓▓▓▓▓▓▓▓` | 0 | 4 |
+| [ASu-skills](/nanami-0713/ASu-skills) | `▓▓▓░░░░░░░` | 0 | 1 |
+| [chat-demo](/nanami-0713/chat-demo) | `▓▓▓░░░░░░░` | 0 | 1 |
+| [asyncband-site](/nanami-0713/asyncband-site) | `▓▓▓░░░░░░░` | 0 | 1 |
+| [opendal](/nanami-0713/opendal) | `▓▓▓░░░░░░░` | 0 | 1 |
+| [asyncband](/nanami-0713/asyncband) | `▓▓▓░░░░░░░` | 0 | 1 |
 <!-- AUTO:activity 结束 -->
