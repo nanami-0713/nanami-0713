@@ -32,7 +32,7 @@
 ▛▀▀ ACTIVITY·7D ▀▀▀▀▀▀▀▀▜
 ```
 
-<sub>4 MODULES ONLINE · 1 COMMITS · 19 EVENTS</sub>
+<sub>7 MODULES ONLINE · 1 COMMITS · 22 EVENTS</sub>
 
 | MODULE | POWER | CMT | EVT |
 |:--|:--|:-:|:-:|
@@ -40,4 +40,15 @@
 | [asyncband](/nanami-0713/asyncband) | `▓▓▓▓▓▓▓░░░` | 0 | 6 |
 | [t3code](/nanami-0713/t3code) | `▓▓▓░░░░░░░` | 1 | 2 |
 | [gitblog](/nanami-0713/gitblog) | `▓▓░░░░░░░░` | 0 | 2 |
+| [herdr](/nanami-0713/herdr) | `▓░░░░░░░░░` | 0 | 1 |
+| [Memoh](/nanami-0713/Memoh) | `▓░░░░░░░░░` | 0 | 1 |
+
+<details>
+<summary>▚ 1 more modules on standby</summary>
+
+| MODULE | POWER | CMT | EVT |
+|:--|:--|:-:|:-:|
+| [oar](/nanami-0713/oar) | `▓░░░░░░░░░` | 0 | 1 |
+
+</details>
 <!-- AUTO:activity 结束 -->
